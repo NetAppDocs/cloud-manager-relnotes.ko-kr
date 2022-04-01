@@ -1,0 +1,139 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+---
+= Cloud Manager의 최근 변경 사항
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Cloud Manager 플랫폼의 일부인 클라우드 서비스의 최신 변경 사항에 대해 알아보십시오. 자세한 내용은 를 참조하십시오 link:release-notes-index.html["전체 릴리스 정보 세트"] 각 개별 서비스에 대해.
+
+
+
+== 관리 기능
+
+이 섹션에서는 Cloud Manager의 관리 기능, 즉 계정, 커넥터, 클라우드 공급자 자격 증명 등과 관련된 새로운 기능에 대해 설명합니다.
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== Azure NetApp Files
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-azure-netapp-files/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== ONTAP용 Amazon FSx
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-fsx-ontap/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 애플리케이션 템플릿
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-app-template/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 클라우드 백업
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-backup-restore/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 클라우드 데이터 감지
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-data-sense/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== Cloud Sync
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 클라우드 계층화
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-tiering/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== Cloud Volumes ONTAP
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== GCP용 Cloud Volumes Service
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-service-gcp/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 컴퓨팅
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 커넥터
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-connector/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 글로벌 파일 캐시
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-file-cache/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 쿠버네티스
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-kubernetes/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 모니터링
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-monitoring/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== NetApp 계정
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-accounts/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 온프레미스 ONTAP 클러스터
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 랜섬웨어 보호
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ransomware/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== 복제
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
+
+
+
+== SnapCenter 서비스
+
+link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-snapcenter/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]

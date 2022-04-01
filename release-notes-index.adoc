@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+---
+= 릴리스 노트 색인
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+각 개별 서비스에 대한 릴리스 정보 전체 세트를 확인합니다.
+
+
+
+== 스토리지
+
+* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/whats-new.html["ONTAP용 Amazon FSx"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/whats-new.html["Google Cloud용 Cloud Volumes Service"^]
+* https://docs.netapp.com/us-en/cloud-manager-kubernetes/whats-new.html["Kubernetes 클러스터"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html["온프레미스 ONTAP 클러스터"^]
+
+
+
+
+== 데이터 서비스
+
+* https://docs.netapp.com/us-en/cloud-manager-app-template/whats-new.html["AppTemplate(애플리케이션 템플릿)"^]
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/whats-new.html["클라우드 백업"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/whats-new.html["클라우드 데이터 감지"^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["Cloud Sync"^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["클라우드 계층화"^]
+* https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["컴퓨팅"^]
+* https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["글로벌 파일 캐시"^]
+* https://docs.netapp.com/us-en/cloud-manager-monitoring/whats-new.html["모니터링"^]
+* https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["랜섬웨어"^]
+* https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["복제"^]
+* https://docs.netapp.com/us-en/cloud-manager-snapcenter/whats-new.html["SnapCenter 서비스"^]
+
+
+
+
+== 관리
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/whats-new.html["설정 및 관리"^]
+
