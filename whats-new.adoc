@@ -88,12 +88,6 @@ link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/wha
 
 
 
-== 커넥터
-
-link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-connector/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
-
-
-
 == 글로벌 파일 캐시
 
 link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-file-cache/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
@@ -109,12 +103,6 @@ link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-kubernetes/main/
 == 모니터링
 
 link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-monitoring/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
-
-
-
-== NetApp 계정
-
-link:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-accounts/main/whats-new.adoc["tag = Whats-new, leveloffset = +1"]
 
 
 
