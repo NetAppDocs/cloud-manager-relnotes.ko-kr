@@ -22,7 +22,12 @@ permalink: release-notes-index.html
 
 * https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/whats-new.html["ONTAP용 Amazon FSx"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^]
+* Cloud Volumes ONTAP
++
+** https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP 릴리스 정보"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager의 Cloud Volumes ONTAP 관리 릴리즈 노트"^]
+
+
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/whats-new.html["Google Cloud용 Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/cloud-manager-kubernetes/whats-new.html["Kubernetes 클러스터"^]
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html["온프레미스 ONTAP 클러스터"^]
