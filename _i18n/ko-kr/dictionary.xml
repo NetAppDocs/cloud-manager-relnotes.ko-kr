@@ -65,29 +65,7 @@
   <block id="92a19295ac05c2a8159ff4e129265e4f" category="inline-link">Cloud Manager의 Cloud Volumes ONTAP 관리 릴리즈 노트</block>
   <block id="998c54a50d0a2978b705c26bab946460" category="list-text"><block ref="998c54a50d0a2978b705c26bab946460" category="inline-link-rx"></block></block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022년 2월 27일</block>
-  <block id="0fc27381f6df0f20af584e656aa215b9" category="section-title">Google Cloud의 커넥터 향상</block>
   <block id="23ea931bf11f885e1a49e6970b0aa60a" category="paragraph">Google Cloud에서 새 Connector를 만들면 Cloud Manager에 기존의 모든 방화벽 정책이 표시됩니다. 이전에는 Cloud Manager에 타겟 태그가 없는 정책이 표시되지 않았습니다.</block>
-  <block id="3ac47455b10c6fb4061a70a91fdbfde2" category="section-title">2022년 1월 30일</block>
-  <block id="4c192c0d77af6017716138a0c469c687" category="section-title">NetApp Support 사이트 계정 알림</block>
-  <block id="553da3d1de1480b23203668d02c692f5" category="paragraph">NetApp은 이제 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트를 설치하면 Cloud Manager에서 이전에 추가한 기존 계정의 NSS(NetApp Support Site) 자격 증명을 업데이트하라는 메시지가 표시됩니다.</block>
-  <block id="a47acc65b2885cddfc6096e5aa5324f7" category="paragraph">NSS 계정을 IDaaS로 마이그레이션하지 않은 경우 먼저 계정을 마이그레이션한 다음 Cloud Manager에서 자격 증명을 업데이트해야 합니다.</block>
-  <block id="b48762bb68eb4f8c518d5be6f1c76d16" category="inline-link">NetApp에서 ID 관리를 위해 Microsoft Azure AD를 사용하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="d9031e6782c3419c7b81c9c83572daf7" category="list-text"><block ref="d9031e6782c3419c7b81c9c83572daf7" category="inline-link-rx"></block></block>
-  <block id="d843af49cdcc73f67f6a04467ff7a5b1" category="inline-link">NSS 계정을 새 인증 방법으로 업데이트하는 방법을 알아봅니다</block>
-  <block id="56e138c1cde783765ac6d2c9d4217fad" category="list-text"><block ref="56e138c1cde783765ac6d2c9d4217fad" category="inline-link-rx"></block></block>
-  <block id="586301717819197e24001cac47efdaaa" category="section-title">2022년 1월 2일</block>
-  <block id="3eb3c5317b96f11c0338c5ff2b831a15" category="section-title">커넥터 끝점이 줄어듭니다</block>
-  <block id="3ea953e33860f2fb58e83ea9f9842e28" category="paragraph">Connector가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 엔드포인트 수를 줄였습니다.</block>
-  <block id="deb7ce1a594b9c903900b5242dc0085e" category="inline-link">필요한 끝점 목록을 봅니다</block>
-  <block id="3f9908dd0d34e73be621e521e51cd6a8" category="paragraph"><block ref="5f52a012a929ebfb0b0a901a58e91a4c" category="inline-link-rx"></block>.</block>
-  <block id="cdacfba529ee299ab36d1cdf539f519d" category="section-title">커넥터에 대한 EBS 디스크 암호화</block>
-  <block id="dcf92cfff3fdb05a27221d7e0f407165" category="paragraph">Cloud Manager에서 AWS에 새 Connector를 구축하는 경우 이제 기본 마스터 키 또는 관리 키를 사용하여 Connector의 EBS 디스크를 암호화할 수 있습니다.</block>
-  <block id="e47c7d2e2b0dfe5aea5df23ca3dc5523" category="inline-image-macro">AWS에서 커넥터를 생성할 때 디스크 암호화 옵션을 보여 주는 스크린샷</block>
-  <block id="1a3140f260afcdb189bbb444b89966c4" category="paragraph"><block ref="1a3140f260afcdb189bbb444b89966c4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9ace35ceff752453d1b0f7978e94417" category="section-title">NSS 계정의 이메일 주소입니다</block>
-  <block id="09a67f36e39e8933808ee04f43addc27" category="paragraph">이제 Cloud Manager에서 NetApp Support 사이트 계정과 연결된 이메일 주소를 표시할 수 있습니다.</block>
-  <block id="51f80facd7c70833cf77adf937c57d0f" category="inline-image-macro">이메일 주소를 표시할 수 있는 기능이 포함된 NetApp Support 사이트 계정의 작업 메뉴를 보여주는 스크린샷</block>
-  <block id="e07973e7f57415cf8c19fe68b62a728c" category="paragraph"><block ref="e07973e7f57415cf8c19fe68b62a728c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">볼륨 템플릿 지원</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.</block>
@@ -222,20 +200,10 @@
   <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">출시 특별 요금이 만료되었으므로 이제 WORM 스토리지 사용 요금이 부과됩니다. WORM 볼륨의 총 프로비저닝 용량에 따라 매시간 충전됩니다. 이는 신규 및 기존 Cloud Volumes ONTAP 시스템에 적용됩니다.</block>
   <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">WORM 스토리지 가격에 대해 자세히 알아보십시오</block>
   <block id="074dbf8cc93ccd34e86e3e2e8f2a1e3a" category="paragraph"><block ref="38aefad2ca205e663da97b7fdd932dcf" category="inline-link-rx"></block>.</block>
-  <block id="32215461c426d2e6cd125109ca715d8f" category="section-title">2022년 2월 27일(커넥터 3.9.16)</block>
   <block id="06a685f653628719e2e70fedf9b250a9" category="section-title">볼륨 마법사를 다시 설계했습니다</block>
   <block id="dd787088b52e69b3d8bf590e16c8413c" category="paragraph">최근에 도입된 새 볼륨 생성 마법사는 * 고급 할당 * 옵션에서 특정 애그리게이트에 볼륨을 생성할 때 사용할 수 있습니다.</block>
   <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">특정 애그리게이트에서 볼륨을 생성하는 방법에 대해 알아보십시오</block>
   <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>.</block>
-  <block id="b1894f3de88322c422613dce3ce8f4cd" category="section-title">마켓플레이스 업데이트</block>
-  <block id="376dea476fe87cb9b0aae288d191c1cc" category="list-text">이제 Essentials 패키지와 Professional 패키지를 AWS 및 Google Cloud 마켓플레이스에서 사용할 수 있습니다.</block>
-  <block id="8b5bbca61d06a4ab0106010904673191" category="paragraph">이러한 용량을 기준으로 비용을 지불할 수 있으며, 연간 계약을 클라우드 공급자로부터 직접 구매할 수 있습니다. NetApp에서 직접 용량 라이센스를 구매할 수 있습니다.</block>
-  <block id="110339077b8549e028924c27d4eee889" category="paragraph">클라우드 마켓플레이스에 기존 구독이 있는 경우 이러한 새로운 오퍼링을 자동으로 구독할 수 있습니다. 새로운 Cloud Volumes ONTAP 작업 환경을 구축할 때 용량 충전을 선택할 수 있습니다.</block>
-  <block id="941041b0490626a7d2a15321ebfea99b" category="paragraph">신규 고객인 경우 새 작업 환경을 생성할 때 Cloud Manager에서 구독을 신청하라는 메시지가 표시됩니다.</block>
-  <block id="0395ddea3013558664b640709c4005e0" category="list-text">AWS 및 Google Cloud 마켓플레이스를 통한 노드 라이센싱은 더 이상 사용되지 않으며 새 가입자에게 제공되지 않습니다. 여기에는 연간 계약 및 시간별 가입(탐색, 표준, 프리미엄)이 포함됩니다.</block>
-  <block id="b353203eeb0af0c192ef9706121d7227" category="paragraph">이 충전 방법은 활성 서브스크립션을 보유한 기존 고객에게도 계속 사용할 수 있습니다.</block>
-  <block id="ad66e158a2e414eee17bb2c5185f011a" category="inline-link">Cloud Volumes ONTAP의 라이센스 옵션에 대해 자세히 알아보십시오</block>
-  <block id="41fe6a9591d04d2b5dc40ba59fd15df9" category="paragraph"><block ref="e22d1e33878d70a72f20edc19056d016" category="inline-link-rx"></block>.</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020년 9월 9일</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Cloud Volumes Service for Google Cloud 지원</block>
   <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">이제 Cloud Manager에서 Cloud Volumes Service for Google Cloud를 직접 관리할 수 있습니다.</block>
@@ -366,4 +334,70 @@
   <block id="013bf9b0d5295922582e97a69409b714" category="list-text">무료 평가판은 마켓플레이스 가입이 시작되는 날부터 시작됩니다. 예를 들어, Cloud Volumes ONTAP 시스템에 대해 30일 동안 Marketplace 구독을 사용한 후 무료 평가판을 활성화하면 클라우드 백업 평가판을 사용할 수 없습니다.</block>
   <block id="caf9c5028f987d64131bfc8e9f4bd0ed" category="inline-link">사용 가능한 라이센스 모델에 대해 자세히 알아보십시오</block>
   <block id="ecd035ede918d91432ba5203669d96bd" category="paragraph"><block ref="7226e404226609d8e6a7fa892651e74a" category="inline-link-rx"></block>.</block>
+  <block id="def752908b0fa662bfb5de654a533140" category="section-title">커넥터 3.9.18</block>
+  <block id="0a6b76c04095167ad3b2e08901195ca3" category="list-text">Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.</block>
+  <block id="b11df59ba05c25c3a8734d54b7501ae7" category="list-text">델리(아시아 - 남쪽 2)</block>
+  <block id="68fb6cfeb81e52feef062b88d7037b7e" category="list-text">멜번(호주 - 수테스토2)</block>
+  <block id="4b14bbd178377e932c7e97664c276be7" category="list-text">밀라노(유럽 - west8)</block>
+  <block id="dcbe8ad0293bd53296a9d2ec0f030d10" category="list-text">산티아고(사우스메리카 - 웨스투트어)</block>
+  <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">지원되는 영역의 전체 목록을 봅니다</block>
+  <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
+  <block id="5750adecdd8602aee9e0d7052b8cd392" category="list-text">Connector에 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에 각 서비스 계정과 연결된 이메일 주소가 표시됩니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.</block>
+  <block id="898d465c80c6b6783418f6fa71db0946" category="inline-image-macro">서비스 계정 필드의 스크린샷</block>
+  <block id="506e06ca3e996f21913a49d1f4920902" category="paragraph"><block ref="506e06ca3e996f21913a49d1f4920902" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="984ca77a9a51746d3dd5a855a71d3493" category="inline-link">차폐된 VM 기능</block>
+  <block id="2e0bddfca809f95cf3d5d7adfccca0e2" category="list-text">당사는 지원하는 OS를 통해 VM 인스턴스에서 Google Cloud의 Connector를 인증했습니다<block ref="bd10301ee2e8f0cb38112a71d2b6920c" category="inline-link-rx"></block></block>
+  <block id="561748ecfe4fd0bd9f15c851d5de4d29" category="inline-link">이러한 향상된 기능에 대해 알아보십시오</block>
+  <block id="d2b88fcff484dc7cae448a7e8c287a1f" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.<block ref="60a968f5f71ebaff72f2727ce31f8e5b" category="inline-link-rx"></block></block>
+  <block id="5e9d36e4528c82da2b7294c252e52427" category="list-text">Connector에서 Cloud Volumes ONTAP를 구축하려면 새로운 AWS 권한이 필요합니다.</block>
+  <block id="bfd761a70b5f9cd277ef7c878344df38" category="paragraph">이제 AZ(단일 가용성 영역)에 HA 쌍을 구축할 때 AWS 분산 배치 그룹을 생성하려면 다음 권한이 필요합니다.</block>
+  <block id="0080f4096e51a12d4256890c125c5c46" category="paragraph">이제 Cloud Manager에서 배치 그룹을 만드는 방법을 최적화하려면 이러한 권한이 필요합니다.</block>
+  <block id="eaf263597aafb24c99ce4e16af420ae8" category="inline-link">Cloud Manager 정책 페이지</block>
+  <block id="26dd25d183752a9f37249174f3d3ff89" category="paragraph">Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. 에서 최신 사용 권한 목록을 찾을 수 있습니다<block ref="0e92ab1ca454f31f07a6e5fba6519a3a" category="inline-link-rx"></block>.</block>
+  <block id="5dc3495f29e6f1332d6d809ba30cbf83" category="section-title">커넥터 3.9.17</block>
+  <block id="dc45cdfe41bbcfa7f2d8bf1ed54a89ed" category="list-text">이제 Cloud Manager가 사용자 환경에서 설정한 IAM 역할을 가정하도록 하여 Connector를 생성할 수 있습니다. 이 인증 방법은 AWS 액세스 키와 비밀 키를 공유하는 것보다 더 안전합니다.</block>
+  <block id="c1ef500163b033b0cacf87c830339c6e" category="inline-link">IAM 역할을 사용하여 커넥터를 생성하는 방법에 대해 알아봅니다</block>
+  <block id="1d74a995b1a421dcb50976efb8094b21" category="paragraph"><block ref="f92b2fbbcca658498705715523d67bd6" category="inline-link-rx"></block>.</block>
+  <block id="1d99a1c8fadd3f9a537fec830e9791e0" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.<block ref="66c4cd7232189d67ede2231e4ccd26ce" category="inline-link-rx"></block></block>
+  <block id="8c4a1103eeca70528bc946c2246ec6f1" category="section-title">커넥터 3.9.16</block>
+  <block id="8452efafcd305c048b35a9ac1eaa0a58" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.<block ref="f53661746a388d6e170677167c0cb4ac" category="inline-link-rx"></block></block>
+  <block id="e76164b285bb635d604e86db0ddefffb" category="paragraph">다음 변경 사항은 커넥터의 3.9.18 릴리스에 도입되었습니다.</block>
+  <block id="44521137c9499dbef6a006058d0d9127" category="section-title">Cloud Volumes ONTAP 9.11.0</block>
+  <block id="f5820273186d8dafc3fd2a4b4a00f3ab" category="paragraph">이제 Cloud Manager에서 Cloud Volumes ONTAP 9.11.0을 배포 및 관리할 수 있습니다.</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
+  <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>.</block>
+  <block id="a0834297e8b28b9a51d59500441c7351" category="section-title">중재자 업그레이드 개선</block>
+  <block id="b1001d52fd68a717e647b035c7ba64fe" category="paragraph">Cloud Manager에서 HA 쌍의 중재자를 업그레이드할 때 이 중재자가 부팅 디스크를 삭제하기 전에 새 중재자 이미지를 사용할 수 있는지 검증합니다. 이 변경 사항은 업그레이드 프로세스가 실패할 경우 중재자가 계속해서 성공적으로 작동할 수 있도록 합니다.</block>
+  <block id="e6e5b99786bfefd88e32c940b7547ab3" category="section-title">K8s 탭이 제거되었습니다</block>
+  <block id="6eb7d1343cce33ec7d31b57edd9f3aef" category="paragraph">K8s 탭은 이전 버전에서 사용되지 않으며 이제 제거되었습니다. Kubernetes를 Cloud Volumes ONTAP와 함께 사용하려면 고급 데이터 관리를 위한 작업 환경으로 관리 Kubernetes 클러스터를 Canvas에 추가할 수 있습니다.</block>
+  <block id="75b200b4f9a63bca2792f985693a22c8" category="inline-link">Cloud Manager의 Kubernetes 데이터 관리에 대해 자세히 알아보십시오</block>
+  <block id="97bbe1f6bede29b64e2101d03c2362cb" category="paragraph"><block ref="97bbe1f6bede29b64e2101d03c2362cb" category="inline-link-rx"></block></block>
+  <block id="7475abfb4039c00bb03fd05d6d792b3d" category="section-title">Azure에서 연간 계약</block>
+  <block id="52b398f13b1acf3e73584a9cb106e989" category="paragraph">이제 Essentials 및 Professional 패키지는 Azure에서 연간 계약을 통해 제공됩니다. NetApp 세일즈 담당자에게 문의하여 연간 계약을 구매할 수 있습니다. 이 계약은 Azure 마켓플레이스에서 프라이빗 오퍼로 제공됩니다.</block>
+  <block id="51606c7b614cdc7ab9e0489981838dfa" category="paragraph">NetApp이 프라이빗 오퍼를 공유하면 작업 환경을 생성하는 동안 Azure 마켓플레이스에서 구독할 때 연간 계획을 선택할 수 있습니다.</block>
+  <block id="ba089edca33f314482ad946ae680f1eb" category="inline-link">라이센스에 대해 자세히 알아보십시오</block>
+  <block id="bd2a7f63a398b5af0c64c2d07409b38c" category="paragraph"><block ref="fa67dcc1253d6ef7da36dd244bfe620f" category="inline-link-rx"></block>.</block>
+  <block id="57ae56f77d278076fb394799067eb3ef" category="section-title">S3 빙하 즉시 검색</block>
+  <block id="465771d8890531f2527e09ef3f1b4f68" category="paragraph">이제 Amazon S3 Glacier Instant Retrieval 저장소 클래스에 계층화된 데이터를 저장할 수 있습니다.</block>
+  <block id="6d4822148bad6fb79e6d92864dde8771" category="inline-link">계층화된 데이터에 대한 스토리지 클래스를 변경하는 방법에 대해 알아보십시오</block>
+  <block id="e6eb181abe02ab22f2df966da6c0669d" category="paragraph"><block ref="5ae2503a0985d77718c9fe3da8dbc989" category="inline-link-rx"></block>.</block>
+  <block id="ef8e1d8f242a7ee4d109deb44db1b252" category="section-title">Connector에 새로운 AWS 권한이 필요합니다</block>
+  <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">새로운 Google Cloud 지역 지원</block>
+  <block id="6b071f4257d8badb0aeb96e6b0547800" category="paragraph">Cloud Volumes ONTAP는 이제 9.10.1 릴리스부터 다음 Google 클라우드 영역에서 지원됩니다.</block>
+  <block id="986ef6cfb21ad2831a7ae053e3f0506e" category="list-text">Milan (Europe-west8) - 단일 노드만 해당</block>
+  <block id="00f803da9ac7d98ccbfd2178a95625ee" category="list-text">산티아고(사우스메리카-west1) - 단일 노드만 해당</block>
+  <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">Cloud Volumes ONTAP에 대해 지원되는 전체 영역 목록을 봅니다</block>
+  <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
+  <block id="8184a89f6d67aafd228ddc002e159ce5" category="section-title">Google Cloud에서 n2-standard-16을 지원합니다</block>
+  <block id="86a3a073b385c5ae85e4523282be3124" category="paragraph">이제 Google Cloud의 Cloud Volumes ONTAP에서 9.10.1 릴리즈부터 n2-standard-16 머신 유형이 지원됩니다.</block>
+  <block id="4994b2bf1bd5c0153c9dc0077a84b5a7" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP에 지원되는 구성을 봅니다</block>
+  <block id="528aaaafbacf255285f844e94403a43f" category="paragraph"><block ref="528aaaafbacf255285f844e94403a43f" category="inline-link-rx"></block></block>
+  <block id="291a5c22c8cb78fe8ec363d61830f63e" category="section-title">Google Cloud 방화벽 정책의 개선 사항</block>
+  <block id="73d44bfa5f20953f5799b7072e1f9dc7" category="list-text">Google Cloud에서 Cloud Volumes ONTAP HA 쌍을 생성하면 Cloud Manager가 VPC에 기존 방화벽 정책을 모두 표시합니다.</block>
+  <block id="5e1082179426bea32e466fe447cc5f2e" category="paragraph">이전에는 Cloud Manager에서 타겟 태그가 없는 VPC-1, VPC-2 또는 VPC-3에 정책을 표시하지 않았습니다.</block>
+  <block id="880f67f103405f29628ff848182ca330" category="list-text">Google Cloud에서 Cloud Volumes ONTAP 단일 노드 시스템을 생성할 때, 이제 선택한 VPC 전용(권장) 또는 모든 VPC 내의 트래픽을 허용하도록 사전 정의된 방화벽 정책을 선택할 수 있습니다.</block>
+  <block id="5c4a95a56d4b5bfef734aeab388618c0" category="section-title">Google Cloud 서비스 계정 개선</block>
+  <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">Cloud Volumes ONTAP에서 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에서 이제 각 서비스 계정과 연결된 이메일 주소를 표시합니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.</block>
+  <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb1bf021e05707d1f69722b4d550c310" category="paragraph">다음 변경 사항은 커넥터의 3.9.16 릴리스에 도입되었습니다.</block>
 </blocks>
