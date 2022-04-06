@@ -767,6 +767,18 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+=== 2022년 5월 8일
+
+
+
+==== 끌어서 놓기로 스토리지 클래스를 추가합니다
+
+이제 Kubernetes 클러스터를 Cloud Volumes ONTAP 작업 환경에 끌어다 놓아 Canvas에서 직접 스토리지 클래스를 추가할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스를 추가합니다"]
+
+
+
 === 2022년 4월 4일
 
 
@@ -795,18 +807,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 이제 Cloud Manager를 사용하여 Google Cloud에서 관리되는 GKE(Google Kubernetes Engine) 클러스터와 자체 관리 Kubernetes 클러스터를 추가하고 관리할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud에서 Kubernetes 클러스터를 시작하는 방법을 알아보십시오"].
-
-
-
-=== 2022년 1월 11일
-
-
-
-==== Azure에서 Kubernetes 클러스터 지원
-
-이제 Cloud Manager를 사용하여 Azure에서 관리되는 Azure Kubernetes 클러스터(AKS) 및 자체 관리 Kubernetes 클러스터를 추가하고 관리할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure에서 Kubernetes 클러스터 시작"]
 
 
 
