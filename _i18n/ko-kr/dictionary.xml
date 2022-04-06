@@ -182,7 +182,6 @@
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">클라우드 데이터 센스에서 직접 새 동기화를 시작한 후 나타나는 데이터 감지 통합 페이지를 보여주는 스크린샷.</block>
   <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">이제 Amazon S3 Glacier Instant Retrieval 저장소 클래스를 사용할 수 있습니다</block>
-  <block id="073223fc83a8b7f1f274f1af1f635f2f" category="paragraph">Cloud Tiering을 설정할 때 특정 일 수 후에 비활성 데이터가 _Standard_storage 클래스에서 _Glacier Instant Retrieval_로 전환되도록 수명주기 규칙을 구성할 수 있습니다. 이를 통해 AWS 인프라 비용을 절감할 수 있습니다.</block>
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering은 ONTAP Select 시스템에서 완벽하게 검증되었습니다</block>
   <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">AFF 및 FAS 시스템의 데이터를 계층화할 뿐만 아니라, 이제 ONTAP Select 시스템의 비활성 데이터를 클라우드 스토리지로 계층화할 수 있습니다.</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021년 9월 2일</block>
@@ -193,9 +192,6 @@
   <block id="24263383a842093a8c2b6b9b8a88989d" category="section-title">사내 ONTAP 클러스터에서 S3 호환 오브젝트 스토리지로 비활성 데이터 계층화</block>
   <block id="59e10c49329cd1a0a55e4a0d27f6a584" category="inline-link">데이터를 S3 호환 오브젝트 스토리지에 계층화하는 방법을 알아보십시오</block>
   <block id="df94b79ab63138be1c03382ae20c338d" category="paragraph">이제 S3(Simple Storage Service) 프로토콜을 사용하는 오브젝트 스토리지 서비스에 비활성 데이터를 계층화할 수 있습니다.<block ref="26932bf166134e05b1ade0d7ecb1b6d8" category="inline-link-rx"></block>.</block>
-  <block id="916678dfdf53de83f6afdf8fca563fb3" category="section-title">2021년 7월 7일</block>
-  <block id="154176674c0672732a91f2bd7ca5d8e0" category="section-title">Connector는 Azure Blob 저장소에 데이터를 계층화할 때 사내에서 실행할 수 있습니다</block>
-  <block id="def40345e2d3c9101a49141b1956c58d" category="paragraph">Azure VNET에 설치된 커넥터를 더 이상 사용할 필요가 없습니다. Azure Blob 저장소에 데이터를 계층화할 때 Connector를 사내 호스트에서 실행할 수 있습니다.</block>
   <block id="0f132f66e81cbab588044405a33dc058" category="section-title">WORM 스토리지에 대한 충전 중</block>
   <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">출시 특별 요금이 만료되었으므로 이제 WORM 스토리지 사용 요금이 부과됩니다. WORM 볼륨의 총 프로비저닝 용량에 따라 매시간 충전됩니다. 이는 신규 및 기존 Cloud Volumes ONTAP 시스템에 적용됩니다.</block>
   <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">WORM 스토리지 가격에 대해 자세히 알아보십시오</block>
@@ -400,4 +396,10 @@
   <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">Cloud Volumes ONTAP에서 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에서 이제 각 서비스 계정과 연결된 이메일 주소를 표시합니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.</block>
   <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eb1bf021e05707d1f69722b4d550c310" category="paragraph">다음 변경 사항은 커넥터의 3.9.16 릴리스에 도입되었습니다.</block>
+  <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022년 5월 3일</block>
+  <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">Cloud Tiering 라이센스는 추가 클러스터 구성을 지원합니다</block>
+  <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">이러한 유형의 클러스터에 대한 라이센스 부여 및 구성 방법을 확인하십시오.</block>
+  <block id="4675a948ea93098e22976c0848737e1a" category="paragraph">이제 Cloud Tiering 라이센스는 MetroCluster 구성이 아닌 Tiering Mirror 구성 클러스터와 IBM Cloud Object Storage로 계층화되는 클러스터와 공유할 수 있습니다. 이러한 시나리오에 더 이상 사용되지 않는 FabricPool 라이센스를 사용할 필요가 없습니다. 따라서 더 많은 클러스터에서 "유동" Cloud Tiering 라이센스를 더 쉽게 사용할 수 있습니다.<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
+  <block id="75ad6cd4979a906c67e27abc9ee1c14e" category="inline-link">지원되는 S3 스토리지 클래스를 참조하십시오.</block>
+  <block id="d3028cb26dae3dbde1ec068c17d15383" category="paragraph">Cloud Tiering을 설정할 때 특정 일 수 후에 비활성 데이터가 _Standard_storage 클래스에서 _Glacier Instant Retrieval_로 전환되도록 수명주기 규칙을 구성할 수 있습니다. 이를 통해 AWS 인프라 비용을 절감할 수 있습니다.<block ref="99f36cc81f33df65a0349e719000fada" category="inline-link-rx"></block></block>
 </blocks>
