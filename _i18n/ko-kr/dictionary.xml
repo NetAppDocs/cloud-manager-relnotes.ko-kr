@@ -362,4 +362,8 @@
   <block id="b59fdb8f9fe5a28d08cd50bf85b70880" category="section-title">Apache log4j 취약점에 대한 수정 사항</block>
   <block id="6b6f87c741f6734b4908d03d2c21e449" category="paragraph">SnapCenter 서비스 1.0.1은 Apache log4j를 버전 2.9.1에서 2.17로 업그레이드하여 CVE-2021-44228, CVE-2021-4104, CVE-2021-45105의 취약점을 해결합니다.</block>
   <block id="ae1f9a5afbc7e02967d7f7e643135d82" category="paragraph">SnapCenter 서비스 클러스터는 최신 버전으로 자동 업데이트해야 합니다. SnapCenter 서비스 UI의 버전에 클러스터가 1.0.1.1251 이상임을 표시해야 합니다.</block>
+  <block id="97106e7449f4966fc1e4b3b78d425110" category="section-title">System Manager 링크가 제거되었습니다</block>
+  <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">이전에 Cloud Volumes ONTAP 작업 환경 내에서 사용할 수 있었던 시스템 관리자 링크가 제거되었습니다.</block>
+  <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">System Manager에 연결하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">Cloud Volumes ONTAP 시스템에 연결된 웹 브라우저에 클러스터 관리 IP 주소를 입력하여 System Manager에 연결할 수도 있습니다.<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>.</block>
 </blocks>
