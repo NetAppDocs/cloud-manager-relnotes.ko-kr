@@ -8,6 +8,7 @@ summary: 이번 릴리즈 노트는 Cloud Manager 플랫폼의 일부인 클라�
 = Cloud Manager 릴리즈 노트
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font

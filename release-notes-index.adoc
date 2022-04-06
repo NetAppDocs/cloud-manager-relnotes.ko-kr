@@ -5,6 +5,7 @@ permalink: release-notes-index.html
 = 릴리스 노트 색인
 :toc: macro
 :hardbreaks:
+:allow-uri-read: 
 :toc: 
 :nofooter: 
 :icons: font
