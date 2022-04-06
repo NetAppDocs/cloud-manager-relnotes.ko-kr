@@ -213,19 +213,6 @@
   <block id="2931385a1afec19638d47ebab7744410" category="paragraph">이전 릴리즈에서는 클라우드 데이터 센스와 Cloud Sync의 통합을 소개했습니다. 이 업데이트를 통해 동기화 관계를 보다 쉽게 만들 수 있도록 통합을 개선했습니다. Cloud Data Sense에서 데이터 동기화를 시작한 후에는 모든 소스 정보가 한 번에 포함되고 몇 가지 키 세부 정보만 입력하면 됩니다.</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">클라우드 데이터 센스에서 직접 새 동기화를 시작한 후 나타나는 데이터 감지 통합 페이지를 보여주는 스크린샷.</block>
   <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5c46bd67ae4b5c23f9c243b5f396c088" category="section-title">2022년 2월 6일</block>
-  <block id="b173d47e232436d0170127aec6c62d25" category="section-title">데이터 브로커 그룹의 개선 사항</block>
-  <block id="2362e2192964b2a1132ee3c33127e6ec" category="paragraph">데이터 브로커_groups_를 강조하여 데이터 브로커와 상호 작용하는 방법을 변경했습니다.</block>
-  <block id="009030a7e855d0f36e42bdac812520b4" category="paragraph">예를 들어, 새 동기화 관계를 생성할 때 특정 데이터 브로커가 아닌 관계에 사용할 데이터 브로커_group_을 선택합니다.</block>
-  <block id="435847457b00dd1f91120adf3d0e24aa" category="inline-image-macro">데이터 브로커 그룹 선택을 보여 주는 동기화 관계 마법사 스크린샷</block>
-  <block id="1010f6ebb8a63e17d664e622c2299691" category="paragraph"><block ref="1010f6ebb8a63e17d664e622c2299691" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9eb0238485945ad5d6512b69445e72c6" category="paragraph">데이터 브로커 * 관리 탭에는 데이터 브로커 그룹이 관리하는 동기화 관계의 수도 표시됩니다.</block>
-  <block id="4f1d2e29d6b816360bccc567294cac53" category="inline-image-macro">데이터 브로커 그룹을 보여 주는 데이터 브로커 관리 페이지의 스크린 샷. 이 페이지에는 관리 관계의 수를 비롯하여 해당 그룹에 대한 세부 정보가 표시됩니다.</block>
-  <block id="b5012dcabc22fc10384141ed3b715897" category="paragraph"><block ref="b5012dcabc22fc10384141ed3b715897" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="81a424c5c67f920d35d770215956f31f" category="section-title">PDF 보고서를 다운로드합니다</block>
-  <block id="983eab96e054cfaaef2e1cc070a5ac0d" category="paragraph">이제 보고서의 PDF를 다운로드할 수 있습니다.</block>
-  <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">보고서에 대해 자세히 알아보십시오</block>
-  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>.</block>
   <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">이제 Amazon S3 Glacier Instant Retrieval 저장소 클래스를 사용할 수 있습니다</block>
   <block id="073223fc83a8b7f1f274f1af1f635f2f" category="paragraph">Cloud Tiering을 설정할 때 특정 일 수 후에 비활성 데이터가 _Standard_storage 클래스에서 _Glacier Instant Retrieval_로 전환되도록 수명주기 규칙을 구성할 수 있습니다. 이를 통해 AWS 인프라 비용을 절감할 수 있습니다.</block>
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering은 ONTAP Select 시스템에서 완벽하게 검증되었습니다</block>
@@ -366,4 +353,13 @@
   <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">이전에 Cloud Volumes ONTAP 작업 환경 내에서 사용할 수 있었던 시스템 관리자 링크가 제거되었습니다.</block>
   <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">System Manager에 연결하는 방법에 대해 자세히 알아보십시오</block>
   <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">Cloud Volumes ONTAP 시스템에 연결된 웹 브라우저에 클러스터 관리 IP 주소를 입력하여 System Manager에 연결할 수도 있습니다.<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>.</block>
+  <block id="81fb4d1570abd75a1e2945d1f1c9f8cc" category="section-title">2022년 5월 1일</block>
+  <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">동기화 시간이 초과되었습니다</block>
+  <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">이제 동기화 관계에 새로운 * 동기화 시간 초과 * 설정을 사용할 수 있습니다. 이 설정을 사용하면 지정된 시간 또는 일 수 동안 동기화가 완료되지 않은 경우 Cloud Sync에서 데이터 동기화를 취소할지 여부를 정의할 수 있습니다.</block>
+  <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link">동기화 관계의 설정 변경에 대해 자세히 알아보십시오</block>
+  <block id="5f03ed55634cfe3f169d94549e45f06c" category="paragraph"><block ref="050cf03a98debb532006e420507b54cf" category="inline-link-rx"></block>.</block>
+  <block id="a274f4d4670213a9045ce258c6c56b80" category="section-title">알림</block>
+  <block id="0a3f4ee017f808dc79fb4939a3eaf91b" category="paragraph">이제 새 * 알림 * 설정을 동기화 관계에 사용할 수 있습니다. 이 설정을 사용하면 Cloud Manager의 알림 센터에서 Cloud Sync 알림을 수신할지 여부를 선택할 수 있습니다. 성공적인 데이터 동기화, 실패한 데이터 동기화 및 취소된 데이터 동기화를 위한 알림을 활성화할 수 있습니다.</block>
+  <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">Cloud Manager의 알림 센터를 보여 주는 스크린샷</block>
+  <block id="914b918c172fa270f423df8135932978" category="paragraph"><block ref="914b918c172fa270f423df8135932978" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
