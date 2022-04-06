@@ -151,16 +151,6 @@
   <block id="afffc0d082245313c31dfcac23d2d8e0" category="section-title">GKE Kubernetes 클러스터에서 Google Cloud 스토리지로 영구 볼륨을 백업하는 기능</block>
   <block id="387cd7ab52bc5fa4b28d5ab54360a48f" category="paragraph">GKE 클러스터에 NetApp Astra Trident가 설치되어 있고 Cloud Volumes ONTAP for GCP를 클러스터의 백엔드 스토리지로 사용하는 경우, Google Cloud 스토리지와 영구 볼륨을 백업 및 복원할 수 있습니다.<block ref="39d25c9214775db10710eba772faa6a0" category="inline-link-rx"></block>.</block>
   <block id="536f48524e36a16593703c5d8d108b79" category="section-title">Cloud Data Sense를 사용하여 Cloud Backup 파일을 검사하는 베타 기능은 이 릴리즈에서 더 이상 제공되지 않습니다</block>
-  <block id="f49fe4c56999dcc895c26b71ec63e34f" category="section-title">2022년 2월 14일</block>
-  <block id="57ccb73ee63efac047dc0eeebb63f5a1" category="section-title">이제 단일 클러스터의 개별 볼륨에 백업 정책을 할당할 수 있습니다</block>
-  <block id="963d2836c97952a191ac974f0e9b5e67" category="inline-link">클러스터에 대한 새 백업 정책을 생성하고 이를 선택한 볼륨에 할당하는 방법을 알아보십시오</block>
-  <block id="6daa5dbfb500796628c3b61f2dad3df6" category="paragraph">과거에는 클러스터의 모든 볼륨에 단일 백업 정책만 할당할 수 있었습니다. 이제 단일 클러스터에 대해 여러 백업 정책을 생성하고 여러 볼륨에 서로 다른 정책을 적용할 수 있습니다.<block ref="8b5e26e66ac1e76130ecacb1139755bd" category="inline-link-rx"></block>.</block>
-  <block id="81bbbb41117b46d39dbcf4b7db2f1e38" category="section-title">새 옵션을 사용하면 새로 생성된 볼륨에 기본 백업 정책을 자동으로 적용할 수 있습니다</block>
-  <block id="e239caf739c8a0f59aa2ff963f94dcd3" category="paragraph">과거에는 Cloud Backup을 활성화한 후 작업 환경에서 생성된 새 볼륨을 수동으로 백업 정책을 적용해야 했습니다. 이제 Cloud Manager, System Manager, CLI 또는 API에서 볼륨이 생성되었는지에 관계없이 Cloud Backup은 볼륨을 검색하고 선택한 백업 정책을 기본 정책으로 적용합니다.</block>
-  <block id="b702b8a648700d54afccce0b8de7766a" category="paragraph">이 옵션은 새 작업 환경에서 백업을 설정하거나 기존 작업 환경의 _Manage Volumes_페이지에서 백업을 설정할 때 사용할 수 있습니다.</block>
-  <block id="739f8a5ac1453fdcd33ce781cd333914" category="section-title">새 작업 모니터를 사용하여 모든 백업 및 복원 작업의 진행 상태를 확인할 수 있습니다</block>
-  <block id="7a99d9487fc9540fa7bee7c2eb717413" category="inline-link">작업 모니터 사용 방법을 참조하십시오</block>
-  <block id="3c51dbbafedd7bc1b145a88fc5e7e77e" category="paragraph">백업 정책 변경 또는 백업 삭제와 같이 여러 볼륨에 대해 작업을 시작한 경우 작업 모니터를 사용하면 모든 볼륨에서 작업이 완료된 시점을 확인할 수 있습니다.<block ref="9521382be7155a87eb6763729a99c134" category="inline-link-rx"></block>.</block>
   <block id="c76a3316ed2cb0284c0ef1b126e8b3ff" category="section-title">2022년 4월 5일</block>
   <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">네 가지 새로운 유형의 호주 개인 데이터는 데이터 센스로 식별할 수 있습니다</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">데이터 센스에서 식별할 수 있는 모든 유형의 개인 데이터를 확인하십시오</block>
@@ -362,4 +352,18 @@
   <block id="0a3f4ee017f808dc79fb4939a3eaf91b" category="paragraph">이제 새 * 알림 * 설정을 동기화 관계에 사용할 수 있습니다. 이 설정을 사용하면 Cloud Manager의 알림 센터에서 Cloud Sync 알림을 수신할지 여부를 선택할 수 있습니다. 성공적인 데이터 동기화, 실패한 데이터 동기화 및 취소된 데이터 동기화를 위한 알림을 활성화할 수 있습니다.</block>
   <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">Cloud Manager의 알림 센터를 보여 주는 스크린샷</block>
   <block id="914b918c172fa270f423df8135932978" category="paragraph"><block ref="914b918c172fa270f423df8135932978" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="49644953fd4e9612a9842d17bef5e79b" category="section-title">2022년 5월 2일</block>
+  <block id="403f4772d715b69d553d3568ca523be0" category="section-title">검색 및 복원은 이제 Google Cloud Storage의 백업 파일에서 지원됩니다</block>
+  <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">검색 및 amp;Restore를 사용하여 볼륨 및 파일을 복원하는 방법을 확인하십시오</block>
+  <block id="c84eb78e4a1957b6b0aa50908d89949f" category="paragraph">4월에 AWS에 백업 파일을 저장한 사용자를 위해 볼륨 및 파일 복원 검색 및 복원 방법이 도입되었습니다. 이제 Google Cloud Storage에 백업 파일을 저장하는 사용자가 이 기능을 사용할 수 있습니다.<block ref="c9d4c1d19223377e15b82823d41fa44a" category="inline-link-rx"></block>.</block>
+  <block id="1dc3a9d2d46d5247757ad692a1dda8d4" category="section-title">Kubernetes 클러스터에서 새로 생성된 볼륨에 자동으로 적용할 백업 정책을 구성합니다</block>
+  <block id="31d9f5df125d9014e9c296eed143904c" category="inline-link">백업 설정 페이지에서</block>
+  <block id="0e5eab8eb6782ba4533b5141d39e4a9a" category="paragraph">Cloud Backup을 활성화한 후 Kubernetes 클러스터에 새로운 영구 볼륨을 추가한 경우에는 이전에 해당 볼륨에 대한 백업을 구성해야 했습니다. 이제 새로 생성된 볼륨에 자동으로 적용되는 정책을 선택할 수 있습니다. 이 옵션은 새 Kubernetes 클러스터에 대해 Cloud Backup을 활성화할 때 설정 마법사에서 사용할 수 있습니다. 또는<block ref="11a3efd6b42c9f2e763586db69ebed23" category="inline-link-rx"></block> 이미 Cloud Backup을 활성화한 클러스터의 경우</block>
+  <block id="fd875d3cd25e36f42ac27fb4f3449a8e" category="section-title">이제 작업 환경에서 Cloud Backup을 활성화하려면 라이센스가 필요합니다</block>
+  <block id="75c0e3b9776c1472c507114bf7a7a1cf" category="paragraph">Cloud Backup에서 라이센스를 구축하는 방법은 다음과 같이 몇 가지 변경되었습니다.</block>
+  <block id="e84f7761b10b99ddca7152e4bb801dd6" category="list-text">Cloud Backup을 활성화하려면 먼저 클라우드 공급자로부터 PAYGO Marketplace 구독에 가입하거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.</block>
+  <block id="6902b4bfe7e77a50b544384d4b87d579" category="list-text">30일 무료 평가판은 클라우드 공급자가 PAYGO 구독을 사용하는 경우에만 사용할 수 있으며 BYOL 라이센스를 사용하는 경우에는 사용할 수 없습니다.</block>
+  <block id="013bf9b0d5295922582e97a69409b714" category="list-text">무료 평가판은 마켓플레이스 가입이 시작되는 날부터 시작됩니다. 예를 들어, Cloud Volumes ONTAP 시스템에 대해 30일 동안 Marketplace 구독을 사용한 후 무료 평가판을 활성화하면 클라우드 백업 평가판을 사용할 수 없습니다.</block>
+  <block id="caf9c5028f987d64131bfc8e9f4bd0ed" category="inline-link">사용 가능한 라이센스 모델에 대해 자세히 알아보십시오</block>
+  <block id="ecd035ede918d91432ba5203669d96bd" category="paragraph"><block ref="7226e404226609d8e6a7fa892651e74a" category="inline-link-rx"></block>.</block>
 </blocks>

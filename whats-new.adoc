@@ -225,6 +225,35 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2022년 5월 2일
+
+
+
+==== 검색 및 복원은 이제 Google Cloud Storage의 백업 파일에서 지원됩니다
+
+4월에 AWS에 백업 파일을 저장한 사용자를 위해 볼륨 및 파일 복원 검색 및 복원 방법이 도입되었습니다. 이제 Google Cloud Storage에 백업 파일을 저장하는 사용자가 이 기능을 사용할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#prerequisites-2["검색 및 amp;Restore를 사용하여 볼륨 및 파일을 복원하는 방법을 확인하십시오"].
+
+
+
+==== Kubernetes 클러스터에서 새로 생성된 볼륨에 자동으로 적용할 백업 정책을 구성합니다
+
+Cloud Backup을 활성화한 후 Kubernetes 클러스터에 새로운 영구 볼륨을 추가한 경우에는 이전에 해당 볼륨에 대한 백업을 구성해야 했습니다. 이제 새로 생성된 볼륨에 자동으로 적용되는 정책을 선택할 수 있습니다. 이 옵션은 새 Kubernetes 클러스터에 대해 Cloud Backup을 활성화할 때 설정 마법사에서 사용할 수 있습니다. 또는 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-kubernetes.html#setting-a-backup-policy-to-be-assigned-to-new-volumes["백업 설정 페이지에서"] 이미 Cloud Backup을 활성화한 클러스터의 경우
+
+
+
+==== 이제 작업 환경에서 Cloud Backup을 활성화하려면 라이센스가 필요합니다
+
+Cloud Backup에서 라이센스를 구축하는 방법은 다음과 같이 몇 가지 변경되었습니다.
+
+* Cloud Backup을 활성화하려면 먼저 클라우드 공급자로부터 PAYGO Marketplace 구독에 가입하거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.
+* 30일 무료 평가판은 클라우드 공급자가 PAYGO 구독을 사용하는 경우에만 사용할 수 있으며 BYOL 라이센스를 사용하는 경우에는 사용할 수 없습니다.
+* 무료 평가판은 마켓플레이스 가입이 시작되는 날부터 시작됩니다. 예를 들어, Cloud Volumes ONTAP 시스템에 대해 30일 동안 Marketplace 구독을 사용한 후 무료 평가판을 활성화하면 클라우드 백업 평가판을 사용할 수 없습니다.
+
+
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["사용 가능한 라이센스 모델에 대해 자세히 알아보십시오"].
+
+
+
 === 2022년 4월 4일
 
 
@@ -256,30 +285,6 @@ GKE 클러스터에 NetApp Astra Trident가 설치되어 있고 Cloud Volumes ON
 
 
 ==== Cloud Data Sense를 사용하여 Cloud Backup 파일을 검사하는 베타 기능은 이 릴리즈에서 더 이상 제공되지 않습니다
-
-
-
-=== 2022년 2월 14일
-
-
-
-==== 이제 단일 클러스터의 개별 볼륨에 백업 정책을 할당할 수 있습니다
-
-과거에는 클러스터의 모든 볼륨에 단일 백업 정책만 할당할 수 있었습니다. 이제 단일 클러스터에 대해 여러 백업 정책을 생성하고 여러 볼륨에 서로 다른 정책을 적용할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-ontap#changing-the-policy-assigned-to-existing-volumes["클러스터에 대한 새 백업 정책을 생성하고 이를 선택한 볼륨에 할당하는 방법을 알아보십시오"].
-
-
-
-==== 새 옵션을 사용하면 새로 생성된 볼륨에 기본 백업 정책을 자동으로 적용할 수 있습니다
-
-과거에는 Cloud Backup을 활성화한 후 작업 환경에서 생성된 새 볼륨을 수동으로 백업 정책을 적용해야 했습니다. 이제 Cloud Manager, System Manager, CLI 또는 API에서 볼륨이 생성되었는지에 관계없이 Cloud Backup은 볼륨을 검색하고 선택한 백업 정책을 기본 정책으로 적용합니다.
-
-이 옵션은 새 작업 환경에서 백업을 설정하거나 기존 작업 환경의 _Manage Volumes_페이지에서 백업을 설정할 때 사용할 수 있습니다.
-
-
-
-==== 새 작업 모니터를 사용하여 모든 백업 및 복원 작업의 진행 상태를 확인할 수 있습니다
-
-백업 정책 변경 또는 백업 삭제와 같이 여러 볼륨에 대해 작업을 시작한 경우 작업 모니터를 사용하면 모든 볼륨에서 작업이 완료된 시점을 확인할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html["작업 모니터 사용 방법을 참조하십시오"].
 
 
 
