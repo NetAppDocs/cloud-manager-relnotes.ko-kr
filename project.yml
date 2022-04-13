@@ -18,6 +18,9 @@ sidebar:
     url: "/whats-new.html"
   - title: 릴리스 노트 색인
     url: "/release-notes-index.html"
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
 homepage:
   tiles:
   - title: 새로운 소식
@@ -36,4 +39,3 @@ homepage:
       url: https://cloud.netapp.com/blog
     - title: 클라우드 웨비나
       url: https://cloud.netapp.com/events
-product-family: {}
