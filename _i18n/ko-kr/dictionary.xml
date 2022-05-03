@@ -344,7 +344,6 @@
   <block id="d166e1f4f240d3915c676102b853aab5" category="paragraph">Data Sense는 다음 Google Docs 제품군(문서, 시트 및 슬라이드)에서 개인 식별 정보(PII)를 식별할 수 있습니다<block ref="c10736ee2c8542c954ba18655a2447a7" category="inline-link-rx"></block>.</block>
   <block id="2f8d7f7b2a9f475f94e961eea0214b6f" category="section-title">데이터 조사 페이지에 디렉토리 수준 보기가 추가되었습니다</block>
   <block id="a1e4ba958a7013f98fdbb1a883102e86" category="inline-link">스캔한 데이터의 디렉터리 보기를 선택하는 방법을 알아봅니다</block>
-  <block id="a5d473c55c66a556abf96b71579ff1bf" category="paragraph">이제 모든 파일과 데이터베이스의 데이터를 보고 필터링할 수 있을 뿐 아니라 데이터 조사 페이지의 폴더 및 공유 내의 모든 데이터를 기반으로 데이터를 보고 필터링할 수 있습니다. 이제 디렉토리 레벨에서 데이터를 관리할 수 있습니다.<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>.</block>
   <block id="fc923fa1acb929379421a26667fff392" category="section-title">그룹 을 확장하여 파일 액세스 권한이 있는 사용자/구성원을 표시합니다</block>
   <block id="87dc185d970f7684d5d731eebbf8d195" category="inline-link">파일에 대한 읽기 및/또는 쓰기 권한이 있는 사용자 및 그룹을 보는 방법에 대해 알아봅니다</block>
   <block id="3fedcf7612eed43efc90d19f42d43f9a" category="paragraph">이제 데이터 감지 사용 권한 기능의 일부로 파일에 액세스할 수 있는 사용자 및 그룹 목록을 볼 수 있습니다. 각 그룹을 확장하여 그룹의 사용자 목록을 표시할 수 있습니다.<block ref="978ddb309e10f2b48cc0f4a959fbca42" category="inline-link-rx"></block>.</block>
@@ -374,4 +373,5 @@
   <block id="dd787088b52e69b3d8bf590e16c8413c" category="paragraph">최근에 도입된 새 볼륨 생성 마법사는 * 고급 할당 * 옵션에서 특정 애그리게이트에 볼륨을 생성할 때 사용할 수 있습니다.</block>
   <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">특정 애그리게이트에서 볼륨을 생성하는 방법에 대해 알아보십시오</block>
   <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>.</block>
+  <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">이제 모든 파일과 데이터베이스의 데이터를 보고 필터링할 수 있을 뿐 아니라 데이터 조사 페이지의 폴더 및 공유 내의 모든 데이터를 기반으로 데이터를 보고 필터링할 수 있습니다. 디렉토리는 스캔된 CIFS 및 NFS 공유와 OneDrive, SharePoint 및 Google Drive 폴더에 대해 인덱싱됩니다. 따라서 이제 디렉토리 수준에서 사용 권한을 보고 데이터를 관리할 수 있습니다.<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>.</block>
 </blocks>
