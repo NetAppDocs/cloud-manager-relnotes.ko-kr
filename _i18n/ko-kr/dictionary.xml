@@ -374,4 +374,42 @@
   <block id="c4abca012bce01614c5a65c5b0e6ecd6" category="inline-link">특정 애그리게이트에서 볼륨을 생성하는 방법에 대해 알아보십시오</block>
   <block id="1c6f86b67d4150db2b816bc084d4c069" category="paragraph"><block ref="525dd47105081fbda31ba7a2793ca879" category="inline-link-rx"></block>.</block>
   <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">이제 모든 파일과 데이터베이스의 데이터를 보고 필터링할 수 있을 뿐 아니라 데이터 조사 페이지의 폴더 및 공유 내의 모든 데이터를 기반으로 데이터를 보고 필터링할 수 있습니다. 디렉토리는 스캔된 CIFS 및 NFS 공유와 OneDrive, SharePoint 및 Google Drive 폴더에 대해 인덱싱됩니다. 따라서 이제 디렉토리 수준에서 사용 권한을 보고 데이터를 관리할 수 있습니다.<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>.</block>
+  <block id="e76164b285bb635d604e86db0ddefffb" category="paragraph">다음 변경 사항은 커넥터의 3.9.18 릴리스에 도입되었습니다.</block>
+  <block id="44521137c9499dbef6a006058d0d9127" category="section-title">Cloud Volumes ONTAP 9.11.0</block>
+  <block id="f5820273186d8dafc3fd2a4b4a00f3ab" category="paragraph">이제 Cloud Manager에서 Cloud Volumes ONTAP 9.11.0을 배포 및 관리할 수 있습니다.</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오</block>
+  <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>.</block>
+  <block id="a0834297e8b28b9a51d59500441c7351" category="section-title">중재자 업그레이드 개선</block>
+  <block id="b1001d52fd68a717e647b035c7ba64fe" category="paragraph">Cloud Manager에서 HA 쌍의 중재자를 업그레이드할 때 이 중재자가 부팅 디스크를 삭제하기 전에 새 중재자 이미지를 사용할 수 있는지 검증합니다. 이 변경 사항은 업그레이드 프로세스가 실패할 경우 중재자가 계속해서 성공적으로 작동할 수 있도록 합니다.</block>
+  <block id="e6e5b99786bfefd88e32c940b7547ab3" category="section-title">K8s 탭이 제거되었습니다</block>
+  <block id="6eb7d1343cce33ec7d31b57edd9f3aef" category="paragraph">K8s 탭은 이전 버전에서 사용되지 않으며 이제 제거되었습니다. Kubernetes를 Cloud Volumes ONTAP와 함께 사용하려면 고급 데이터 관리를 위한 작업 환경으로 관리 Kubernetes 클러스터를 Canvas에 추가할 수 있습니다.</block>
+  <block id="75b200b4f9a63bca2792f985693a22c8" category="inline-link">Cloud Manager의 Kubernetes 데이터 관리에 대해 자세히 알아보십시오</block>
+  <block id="97bbe1f6bede29b64e2101d03c2362cb" category="paragraph"><block ref="97bbe1f6bede29b64e2101d03c2362cb" category="inline-link-rx"></block></block>
+  <block id="7475abfb4039c00bb03fd05d6d792b3d" category="section-title">Azure에서 연간 계약</block>
+  <block id="52b398f13b1acf3e73584a9cb106e989" category="paragraph">이제 Essentials 및 Professional 패키지는 Azure에서 연간 계약을 통해 제공됩니다. NetApp 세일즈 담당자에게 문의하여 연간 계약을 구매할 수 있습니다. 이 계약은 Azure 마켓플레이스에서 프라이빗 오퍼로 제공됩니다.</block>
+  <block id="51606c7b614cdc7ab9e0489981838dfa" category="paragraph">NetApp이 프라이빗 오퍼를 공유하면 작업 환경을 생성하는 동안 Azure 마켓플레이스에서 구독할 때 연간 계획을 선택할 수 있습니다.</block>
+  <block id="ba089edca33f314482ad946ae680f1eb" category="inline-link">라이센스에 대해 자세히 알아보십시오</block>
+  <block id="bd2a7f63a398b5af0c64c2d07409b38c" category="paragraph"><block ref="fa67dcc1253d6ef7da36dd244bfe620f" category="inline-link-rx"></block>.</block>
+  <block id="57ae56f77d278076fb394799067eb3ef" category="section-title">S3 빙하 즉시 검색</block>
+  <block id="465771d8890531f2527e09ef3f1b4f68" category="paragraph">이제 Amazon S3 Glacier Instant Retrieval 저장소 클래스에 계층화된 데이터를 저장할 수 있습니다.</block>
+  <block id="6d4822148bad6fb79e6d92864dde8771" category="inline-link">계층화된 데이터에 대한 스토리지 클래스를 변경하는 방법에 대해 알아보십시오</block>
+  <block id="e6eb181abe02ab22f2df966da6c0669d" category="paragraph"><block ref="5ae2503a0985d77718c9fe3da8dbc989" category="inline-link-rx"></block>.</block>
+  <block id="ef8e1d8f242a7ee4d109deb44db1b252" category="section-title">Connector에 새로운 AWS 권한이 필요합니다</block>
+  <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">새로운 Google Cloud 지역 지원</block>
+  <block id="6b071f4257d8badb0aeb96e6b0547800" category="paragraph">Cloud Volumes ONTAP는 이제 9.10.1 릴리스부터 다음 Google 클라우드 영역에서 지원됩니다.</block>
+  <block id="986ef6cfb21ad2831a7ae053e3f0506e" category="list-text">Milan (Europe-west8) - 단일 노드만 해당</block>
+  <block id="00f803da9ac7d98ccbfd2178a95625ee" category="list-text">산티아고(사우스메리카-west1) - 단일 노드만 해당</block>
+  <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">Cloud Volumes ONTAP에 대해 지원되는 전체 영역 목록을 봅니다</block>
+  <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
+  <block id="8184a89f6d67aafd228ddc002e159ce5" category="section-title">Google Cloud에서 n2-standard-16을 지원합니다</block>
+  <block id="86a3a073b385c5ae85e4523282be3124" category="paragraph">이제 Google Cloud의 Cloud Volumes ONTAP에서 9.10.1 릴리즈부터 n2-standard-16 머신 유형이 지원됩니다.</block>
+  <block id="4994b2bf1bd5c0153c9dc0077a84b5a7" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP에 지원되는 구성을 봅니다</block>
+  <block id="528aaaafbacf255285f844e94403a43f" category="paragraph"><block ref="528aaaafbacf255285f844e94403a43f" category="inline-link-rx"></block></block>
+  <block id="291a5c22c8cb78fe8ec363d61830f63e" category="section-title">Google Cloud 방화벽 정책의 개선 사항</block>
+  <block id="73d44bfa5f20953f5799b7072e1f9dc7" category="list-text">Google Cloud에서 Cloud Volumes ONTAP HA 쌍을 생성하면 Cloud Manager가 VPC에 기존 방화벽 정책을 모두 표시합니다.</block>
+  <block id="5e1082179426bea32e466fe447cc5f2e" category="paragraph">이전에는 Cloud Manager에서 타겟 태그가 없는 VPC-1, VPC-2 또는 VPC-3에 정책을 표시하지 않았습니다.</block>
+  <block id="880f67f103405f29628ff848182ca330" category="list-text">Google Cloud에서 Cloud Volumes ONTAP 단일 노드 시스템을 생성할 때, 이제 선택한 VPC 전용(권장) 또는 모든 VPC 내의 트래픽을 허용하도록 사전 정의된 방화벽 정책을 선택할 수 있습니다.</block>
+  <block id="5c4a95a56d4b5bfef734aeab388618c0" category="section-title">Google Cloud 서비스 계정 개선</block>
+  <block id="06fa5bb865f711b645e1f86dd8711d63" category="paragraph">Cloud Volumes ONTAP에서 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에서 이제 각 서비스 계정과 연결된 이메일 주소를 표시합니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.</block>
+  <block id="92a991ca375ee56317f82c3a30f16fff" category="paragraph"><block ref="92a991ca375ee56317f82c3a30f16fff" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
