@@ -487,7 +487,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-12 19:07:26 +0000">05/12/2022</time>
+    <time datetime="2022-05-12 20:59:14 +0000">05/12/2022</time>
     
   
 
@@ -555,6 +555,7 @@
 </li>
 <li><a href="#cloud-volumes-ontap">Cloud Volumes ONTAP</a>
 <ul class="sectlevel2">
+<li><a href="#2022년-5월-2일-3">2022년 5월 2일</a></li>
 <li><a href="#2022년-4월-3일-3">2022년 4월 3일</a></li>
 <li><a href="#2022년-2월-27일-3">2022년 2월 27일</a></li>
 </ul>
@@ -1190,6 +1191,134 @@
 <div class="sect1">
 <h2 id="cloud-volumes-ontap">Cloud Volumes ONTAP</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="2022년-5월-2일-3">2022년 5월 2일</h3>
+<div class="paragraph">
+<p>다음 변경 사항은 커넥터의 3.9.18 릴리스에 도입되었습니다.</p>
+</div>
+<div class="sect3">
+<h4 id="cloud-volumes-ontap-9-11-0">Cloud Volumes ONTAP 9.11.0</h4>
+<div class="paragraph">
+<p>이제 Cloud Manager에서 Cloud Volumes ONTAP 9.11.0을 배포 및 관리할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes" target="_blank" rel="noopener">"이 Cloud Volumes ONTAP 릴리스에 포함된 새로운 기능에 대해 자세히 알아보십시오"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="중재자-업그레이드-개선">중재자 업그레이드 개선</h4>
+<div class="paragraph">
+<p>Cloud Manager에서 HA 쌍의 중재자를 업그레이드할 때 이 중재자가 부팅 디스크를 삭제하기 전에 새 중재자 이미지를 사용할 수 있는지 검증합니다. 이 변경 사항은 업그레이드 프로세스가 실패할 경우 중재자가 계속해서 성공적으로 작동할 수 있도록 합니다.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="k8s-탭이-제거되었습니다">K8s 탭이 제거되었습니다</h4>
+<div class="paragraph">
+<p>K8s 탭은 이전 버전에서 사용되지 않으며 이제 제거되었습니다. Kubernetes를 Cloud Volumes ONTAP와 함께 사용하려면 고급 데이터 관리를 위한 작업 환경으로 관리 Kubernetes 클러스터를 Canvas에 추가할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-kubernetes/concept-kubernetes.html" target="_blank" rel="noopener">"Cloud Manager의 Kubernetes 데이터 관리에 대해 자세히 알아보십시오"</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="azure에서-연간-계약">Azure에서 연간 계약</h4>
+<div class="paragraph">
+<p>이제 Essentials 및 Professional 패키지는 Azure에서 연간 계약을 통해 제공됩니다. NetApp 세일즈 담당자에게 문의하여 연간 계약을 구매할 수 있습니다. 이 계약은 Azure 마켓플레이스에서 프라이빗 오퍼로 제공됩니다.</p>
+</div>
+<div class="paragraph">
+<p>NetApp이 프라이빗 오퍼를 공유하면 작업 환경을 생성하는 동안 Azure 마켓플레이스에서 구독할 때 연간 계획을 선택할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"라이센스에 대해 자세히 알아보십시오"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="s3-빙하-즉시-검색">S3 빙하 즉시 검색</h4>
+<div class="paragraph">
+<p>이제 Amazon S3 Glacier Instant Retrieval 저장소 클래스에 계층화된 데이터를 저장할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html#changing-the-storage-class-for-tiered-data">"계층화된 데이터에 대한 스토리지 클래스를 변경하는 방법에 대해 알아보십시오"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="connector에-새로운-aws-권한이-필요합니다">Connector에 새로운 AWS 권한이 필요합니다</h4>
+<div class="paragraph">
+<p>이제 AZ(단일 가용성 영역)에 HA 쌍을 구축할 때 AWS 분산 배치 그룹을 생성하려면 다음 권한이 필요합니다.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json">"ec2:DescribePlacementGroups",
+"iam:GetRolePolicy",</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>이제 Cloud Manager에서 배치 그룹을 만드는 방법을 최적화하려면 이러한 권한이 필요합니다.</p>
+</div>
+<div class="paragraph">
+<p>Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. 에서 최신 사용 권한 목록을 찾을 수 있습니다 <a href="https://mysupport.netapp.com/site/info/cloud-manager-policies" target="_blank" rel="noopener">"Cloud Manager 정책 페이지"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="새로운-google-cloud-지역-지원">새로운 Google Cloud 지역 지원</h4>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP는 이제 9.10.1 릴리스부터 다음 Google 클라우드 영역에서 지원됩니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>델리(아시아 - 남쪽 2)</p>
+</li>
+<li>
+<p>멜번(호주 - 수테스토2)</p>
+</li>
+<li>
+<p>Milan (Europe-west8) - 단일 노드만 해당</p>
+</li>
+<li>
+<p>산티아고(사우스메리카-west1) - 단일 노드만 해당</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://cloud.netapp.com/cloud-volumes-global-regions" target="_blank" rel="noopener">"Cloud Volumes ONTAP에 대해 지원되는 전체 영역 목록을 봅니다"</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="google-cloud에서-n2-standard-16을-지원합니다">Google Cloud에서 n2-standard-16을 지원합니다</h4>
+<div class="paragraph">
+<p>이제 Google Cloud의 Cloud Volumes ONTAP에서 9.10.1 릴리즈부터 n2-standard-16 머신 유형이 지원됩니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html" target="_blank" rel="noopener">"Google Cloud에서 Cloud Volumes ONTAP에 지원되는 구성을 봅니다"</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="google-cloud-방화벽-정책의-개선-사항">Google Cloud 방화벽 정책의 개선 사항</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Google Cloud에서 Cloud Volumes ONTAP HA 쌍을 생성하면 Cloud Manager가 VPC에 기존 방화벽 정책을 모두 표시합니다.</p>
+<div class="paragraph">
+<p>이전에는 Cloud Manager에서 타겟 태그가 없는 VPC-1, VPC-2 또는 VPC-3에 정책을 표시하지 않았습니다.</p>
+</div>
+</li>
+<li>
+<p>Google Cloud에서 Cloud Volumes ONTAP 단일 노드 시스템을 생성할 때, 이제 선택한 VPC 전용(권장) 또는 모든 VPC 내의 트래픽을 허용하도록 사전 정의된 방화벽 정책을 선택할 수 있습니다.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="google-cloud-서비스-계정-개선">Google Cloud 서비스 계정 개선</h4>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP에서 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에서 이제 각 서비스 계정과 연결된 이메일 주소를 표시합니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-google-cloud-service-account.png" alt="서비스 계정 필드의 스크린샷"></span></p>
+</div>
+</div>
+</div>
 <div class="sect2">
 <h3 id="2022년-4월-3일-3">2022년 4월 3일</h3>
 <div class="sect3">
