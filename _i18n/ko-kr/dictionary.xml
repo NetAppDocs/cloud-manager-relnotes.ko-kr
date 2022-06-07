@@ -51,7 +51,6 @@
   <block id="950604af87c30e09716e6d097eb491db" category="section-title">랜섬웨어 보호</block>
   <block id="46255a0651109e3be491691e312b0332" category="summary">이번 릴리즈 노트는 Cloud Manager 플랫폼의 일부인 클라우드 서비스의 최신 개선사항에 대해 설명합니다. 각 개별 서비스에 대한 전체 릴리스 노트에 대한 링크를 사용할 수 있습니다.</block>
   <block id="ab0f38be07f9dea06b0c032857af2e24" category="doc">Cloud Manager 릴리즈 노트</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">서비스별 릴리스 정보</block>
@@ -156,14 +155,6 @@
   <block id="c81f80b5e3a2c8dfe8c2f908cbbfc2fa" category="paragraph">이제 동기화 대시보드의 내용을 필터링하여 특정 상태와 일치하는 동기화 관계를 보다 쉽게 찾을 수 있습니다. 예를 들어 실패 상태인 동기화 관계를 필터링할 수 있습니다</block>
   <block id="ab31e38babe6f59fc89d1a7f8d3ea2c9" category="inline-image-macro">대시보드 위쪽에 동기화 상태별 필터링 옵션이 표시된 스크린샷</block>
   <block id="9a086a6121a0ffa4e8986b7ce540eece" category="paragraph"><block ref="9a086a6121a0ffa4e8986b7ce540eece" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">대시보드에서 정렬</block>
-  <block id="32ee2f2004d5d2f19f46a8909b1df5a6" category="paragraph">이제 동기화 관계 이름을 기준으로 대시보드를 정렬합니다.</block>
-  <block id="c964823b8160043978055759ce39dd87" category="inline-image-macro">대시보드에서 사용할 수 있는 이름별 정렬 옵션을 보여 주는 스크린샷</block>
-  <block id="ce7541e1d7efdf7278fdc4d1fc9736b1" category="paragraph"><block ref="ce7541e1d7efdf7278fdc4d1fc9736b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aabbe3d8eb6db922cc7867bbc1068867" category="section-title">데이터 센스 통합 기능 향상</block>
-  <block id="2931385a1afec19638d47ebab7744410" category="paragraph">이전 릴리즈에서는 클라우드 데이터 센스와 Cloud Sync의 통합을 소개했습니다. 이 업데이트를 통해 동기화 관계를 보다 쉽게 만들 수 있도록 통합을 개선했습니다. Cloud Data Sense에서 데이터 동기화를 시작한 후에는 모든 소스 정보가 한 번에 포함되고 몇 가지 키 세부 정보만 입력하면 됩니다.</block>
-  <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">클라우드 데이터 센스에서 직접 새 동기화를 시작한 후 나타나는 데이터 감지 통합 페이지를 보여주는 스크린샷.</block>
-  <block id="b7415479c879eb3f5804ebd25ea733e7" category="paragraph"><block ref="b7415479c879eb3f5804ebd25ea733e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">이제 Amazon S3 Glacier Instant Retrieval 저장소 클래스를 사용할 수 있습니다</block>
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering은 ONTAP Select 시스템에서 완벽하게 검증되었습니다</block>
   <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">AFF 및 FAS 시스템의 데이터를 계층화할 뿐만 아니라, 이제 ONTAP Select 시스템의 비활성 데이터를 클라우드 스토리지로 계층화할 수 있습니다.</block>
@@ -219,10 +210,6 @@
   <block id="aa7542e939f8e623254af69a1fcd8e2b" category="list-text"><block ref="aa7542e939f8e623254af69a1fcd8e2b" category="inline-link-macro-rx"></block></block>
   <block id="41e3782291be693bb1f948094d98229d" category="inline-link-macro">데이터 서비스 지원</block>
   <block id="6d6f9b61b474cb16598eda49f24d6452" category="list-text"><block ref="6d6f9b61b474cb16598eda49f24d6452" category="inline-link-macro-rx"></block></block>
-  <block id="572154af04ccf23551e78649302c6f7b" category="section-title">Google Cloud에서 Kubernetes 클러스터 지원</block>
-  <block id="45cbe8fd766702dd0ad0022cbde336ce" category="paragraph">이제 Cloud Manager를 사용하여 Google Cloud에서 관리되는 GKE(Google Kubernetes Engine) 클러스터와 자체 관리 Kubernetes 클러스터를 추가하고 관리할 수 있습니다.</block>
-  <block id="f1b377c7d4b75112665bc3e7ee7c340b" category="inline-link-macro">Google Cloud에서 Kubernetes 클러스터를 시작하는 방법을 알아보십시오</block>
-  <block id="6fcf7676e8aae6ddc7b3f104efce8aab" category="paragraph"><block ref="5416dc5374fce9a230fcbd66732d82fb" category="inline-link-macro-rx"></block>.</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022년 1월 11일</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021년 8월 1일</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">획득 장치 이름으로 변경합니다</block>
@@ -245,9 +232,6 @@
   <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>. 클러스터에 대한 NetApp NSS(Support Site Account)가 있어야 하며 NSS 자격 증명을 Cloud Manager 계정에 연결해야 합니다.</block>
   <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다.</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">볼륨에 추가하는 태그는 이제 애플리케이션 템플릿 서비스의 태그 지정 기능과 연결되어 리소스 관리를 구성하고 단순화할 수 있습니다.</block>
-  <block id="f61163b681442ac500a8018c87241770" category="section-title">2021년 11월 28일</block>
-  <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">온프레미스 ONTAP 클러스터를 위한 볼륨 생성 마법사가 간소화되었습니다</block>
-  <block id="decff6be18712c90db61aad628609885" category="paragraph">볼륨 생성 마법사를 재설계했으므로 이제 사용자 지정 엑스포트 정책을 선택할 수 있습니다.</block>
   <block id="70ca849e4710f5c98451b61f2b47e5a8" category="section-title">비즈니스 크리티컬 데이터의 사용 권한 상태를 추적할 수 있는 새 패널입니다</block>
   <block id="5816bf17c72947dceb173c559c3f6009" category="paragraph">새로운 "비즈니스 크리티컬 데이터 사용 권한 분석" 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 보여줍니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다.<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>.</block>
   <block id="1029db4aa82b2fd39d624a6eda513d6c" category="section-title">이제 사용 권한 열기 영역에 OneDrive 및 SharePoint 계정이 포함됩니다</block>
@@ -282,8 +266,6 @@
   <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">검색 및 amp;Restore를 사용하여 볼륨 및 파일을 복원하는 방법을 확인하십시오</block>
   <block id="c84eb78e4a1957b6b0aa50908d89949f" category="paragraph">4월에 AWS에 백업 파일을 저장한 사용자를 위해 볼륨 및 파일 복원 검색 및 복원 방법이 도입되었습니다. 이제 Google Cloud Storage에 백업 파일을 저장하는 사용자가 이 기능을 사용할 수 있습니다.<block ref="c9d4c1d19223377e15b82823d41fa44a" category="inline-link-rx"></block>.</block>
   <block id="1dc3a9d2d46d5247757ad692a1dda8d4" category="section-title">Kubernetes 클러스터에서 새로 생성된 볼륨에 자동으로 적용할 백업 정책을 구성합니다</block>
-  <block id="31d9f5df125d9014e9c296eed143904c" category="inline-link">백업 설정 페이지에서</block>
-  <block id="0e5eab8eb6782ba4533b5141d39e4a9a" category="paragraph">Cloud Backup을 활성화한 후 Kubernetes 클러스터에 새로운 영구 볼륨을 추가한 경우에는 이전에 해당 볼륨에 대한 백업을 구성해야 했습니다. 이제 새로 생성된 볼륨에 자동으로 적용되는 정책을 선택할 수 있습니다. 이 옵션은 새 Kubernetes 클러스터에 대해 Cloud Backup을 활성화할 때 설정 마법사에서 사용할 수 있습니다. 또는<block ref="11a3efd6b42c9f2e763586db69ebed23" category="inline-link-rx"></block> 이미 Cloud Backup을 활성화한 클러스터의 경우</block>
   <block id="fd875d3cd25e36f42ac27fb4f3449a8e" category="section-title">이제 작업 환경에서 Cloud Backup을 활성화하려면 라이센스가 필요합니다</block>
   <block id="75c0e3b9776c1472c507114bf7a7a1cf" category="paragraph">Cloud Backup에서 라이센스를 구축하는 방법은 다음과 같이 몇 가지 변경되었습니다.</block>
   <block id="e84f7761b10b99ddca7152e4bb801dd6" category="list-text">Cloud Backup을 활성화하려면 먼저 클라우드 공급자로부터 PAYGO Marketplace 구독에 가입하거나 NetApp에서 BYOL 라이센스를 구입해야 합니다.</block>
@@ -413,4 +395,37 @@
   <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">이 "메타데이터 에지 동기화" 기능은 Edge 동기화 기능을 핵심 프레임워크로 사용합니다. 메타데이터 정보만 구독한 모든 엣지에 업데이트되며 파일/폴더는 Edge 머신에 생성됩니다.</block>
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager 서비스 개선 사항</block>
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">글로벌 파일 캐시 LMS(License Management Server) 서비스가 프록시 설정을 자동으로 검색하도록 향상되었습니다. 이를 통해 원활한 구성이 가능합니다.</block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022년 6월 7일</block>
+  <block id="40beea3ec23a7affa39b1a1cbd52f21d" category="section-title">커넥터 3.9.19</block>
+  <block id="fb9fefdc512037af8c4c1f84c436bd8e" category="list-text">커넥터는 현재 AWS 자카르타 지역(AP-동남동-3)에서 지원됩니다.</block>
+  <block id="49ed7ab586a5135eae3ee7b3aea2ae20" category="list-text">이제 Connector는 Azure Brazil Southeast 지역에서 지원됩니다.</block>
+  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.</block>
+  <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오</block>
+  <block id="2027473f3ca71543274163d3bb9dd8e1" category="list-text"><block ref="2027473f3ca71543274163d3bb9dd8e1" category="inline-link-rx"></block></block>
+  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오</block>
+  <block id="f0aff813a70ef2591adfbb6a1a06b553" category="list-text"><block ref="f0aff813a70ef2591adfbb6a1a06b553" category="inline-link-rx"></block></block>
+  <block id="35902f649443d8dd6c5f04595fff3035" category="paragraph">Cloud Backup을 활성화한 후 Kubernetes 클러스터에 새로운 영구 볼륨을 추가한 경우에는 이전에 해당 볼륨에 대한 백업을 구성해야 했습니다. 이제 새로 생성된 볼륨에 자동으로 적용되는 정책을 선택할 수 있습니다. 이 옵션은 새 Kubernetes 클러스터에 대한 Cloud Backup을 활성화할 때 설정 마법사에서 사용할 수 있습니다.</block>
+  <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022년 6월 6일</block>
+  <block id="c20246791a0594003975011a29aae438" category="section-title">연속 동기화</block>
+  <block id="ade9a1db23f7d605ed4e98f520c46b00" category="paragraph">새로운 설정을 사용하면 소스 S3 버킷에서 타겟으로 변경 사항을 지속적으로 동기화할 수 있습니다.</block>
+  <block id="2aaa6a5839225ec7e874d5c5c1af43df" category="paragraph">초기 데이터 동기화 후 Cloud Sync는 소스 S3 버킷의 변경 사항을 수신 대기하고 변경 사항이 발생할 때마다 타겟에 계속 동기화합니다. 예약된 간격으로 소스를 다시 검색할 필요가 없습니다. 이 설정은 S3 버킷에서 S3, Google Cloud Storage, Azure Blob Storage, StorageGRID 또는 IBM Storage로 동기화할 때만 사용할 수 있습니다.</block>
+  <block id="969431a3ee7466b53b917ad1bc5d032a" category="paragraph">이 설정을 사용하려면 데이터 브로커와 연결된 IAM 역할에 다음 권한이 필요합니다.</block>
+  <block id="8817adc7e5de41abc6dded623fbb60a9" category="paragraph">이러한 사용 권한은 사용자가 만든 새 데이터 브로커에 자동으로 추가됩니다.</block>
+  <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link-macro">연속 동기화 설정에 대해 자세히 알아보십시오</block>
+  <block id="9bc62ddcbad4365043432f4afd539ab9" category="paragraph"><block ref="b78c060d9cafb1faa0c3c10254143905" category="inline-link-macro-rx"></block>.</block>
+  <block id="3d7f78f24cbebe2c601558e90c9fe15f" category="section-title">모든 ONTAP 볼륨을 표시합니다</block>
+  <block id="517d881d38e3ddd50495a5763ac986b4" category="paragraph">동기화 관계를 생성하면 Cloud Sync는 이제 소스 Cloud Volumes ONTAP 시스템, 온-프레미스 ONTAP 클러스터 또는 ONTAP 파일 시스템용 FSx의 모든 볼륨을 표시합니다.</block>
+  <block id="9de2181e94c0cd08ea8823917ee87c3f" category="paragraph">이전 버전에서는 Cloud Sync가 선택한 프로토콜과 일치하는 볼륨만 표시합니다. 이제 모든 볼륨이 표시되지만 선택한 프로토콜과 일치하지 않거나 공유 또는 내보내기가 없는 볼륨은 회색으로 표시되고 선택할 수 없습니다.</block>
+  <block id="7f5581e89068d302a142aecf7d19a771" category="section-title">Azure Blob에 태그 복사 중</block>
+  <block id="32aae8f84d3fb43aff2913dafe7d72e0" category="paragraph">Azure Blob이 타겟인 동기화 관계를 만들면 Cloud Sync에서 이제 Azure Blob 컨테이너에 태그를 복사할 수 있습니다.</block>
+  <block id="718cef647cf171d07e94f6c003056c56" category="list-text">Settings * 페이지에서 * Copy for Objects * 설정을 사용하여 소스에서 Azure Blob 컨테이너로 태그를 복사할 수 있습니다. 이는 메타데이터 복사에 추가됩니다.</block>
+  <block id="37e1492974d1c0a4febae33433a14d3f" category="list-text">태그/메타데이터 * 페이지에서 Azure Blob 컨테이너에 복사되는 개체에 설정할 Blob 인덱스 태그를 지정할 수 있습니다. 이전에는 관계 메타데이터만 지정할 수 있었습니다.</block>
+  <block id="bb775e1249cce6f8004e5212d3f37d10" category="paragraph">이러한 옵션은 Azure Blob이 타겟이고 소스가 Azure Blob 또는 S3 호환 엔드포인트(S3, StorageGRID 또는 IBM 클라우드 오브젝트 스토리지)인 경우에 지원됩니다.</block>
+  <block id="cd6d587cb36421715f3cc24a2c91aef6" category="paragraph">Cloud Manager는 이제 백엔드 스토리지로 ONTAP용 Amazon FSx를 지원합니다.</block>
+  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">다음 변경은 커넥터의 3.9.19 릴리스에 도입되었습니다.</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">새 고급 보기</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. Cloud Manager 인터페이스에 Cloud Manager 인터페이스가 포함되어 있으므로 고급 관리를 위해 Cloud Manager에서 그대로 둘 필요가 없습니다.</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.</block>
+  <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">고급 보기에 대해 자세히 알아보십시오</block>
+  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>.</block>
 </blocks>
