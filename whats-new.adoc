@@ -27,6 +27,50 @@ Cloud Manager 플랫폼의 일부인 클라우드 서비스의 최신 변경 사
 
 
 
+=== 2022년 7월 3일
+
+
+
+==== 커넥터 3.9.20
+
+* Cloud Manager 인터페이스에 추가된 새로운 기능을 탐색하는 방법이 도입되었습니다. 이제 왼쪽 패널 위로 마우스를 이동하면 익숙한 Cloud Manager 기능을 모두 쉽게 찾을 수 있습니다.
++
+image:screenshot-navigation.png["Cloud Manager의 새로운 좌측 탐색 메뉴를 보여주는 스크린샷"]
+
+* 이제 Cloud Manager를 구성하여 시스템에 로그인하지 않아도 중요한 시스템 작업을 이메일로 통지할 수 있습니다.
++
+link:task-monitor-cm-operations.html["계정의 작업 모니터링에 대해 자세히 알아보십시오"].
+
+* Cloud Manager는 이제 Amazon S3 지원과 비슷하게 Azure Blob 스토리지 및 Google Cloud Storage를 작업 환경으로 지원합니다.
++
+Azure 또는 Google Cloud에 Connector를 설치한 후 Cloud Manager는 이제 Connector가 설치된 프로젝트의 Azure Blob 스토리지 또는 Google Cloud Storage에 대한 정보를 자동으로 검색합니다. Cloud Manager는 오브젝트 스토리지를 작업 환경으로 표시하여 더 자세한 정보를 볼 수 있도록 합니다.
+
++
+Azure Blob 작업 환경의 예는 다음과 같습니다.
+
++
+image:screenshot-azure-blob.png["상위 수준의 개요와 스토리지 계정에 대한 자세한 정보를 볼 수 있는 Azure Blob 작업 환경을 보여 주는 스크린샷"]
+
+* NetApp은 용량, 암호화 세부 정보 등과 같은 S3 버킷에 대한 자세한 정보를 제공하여 Amazon S3 작업 환경의 리소스 페이지를 재설계했습니다.
+* Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.
++
+** 마드리드(유럽 - 남서쪽1)
+** 파리(유럽 - west9)
+** 바르샤바(유럽-중중심2)
+
+
+* 이제 커넥터는 Azure West US 3 지역에서 지원됩니다.
++
+https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
+
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
+
+
 === 2022년 6월 28일
 
 
@@ -58,16 +102,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 
 
 
-
-
-
-=== 2022년 5월 12일
-
-
-
-==== 커넥터 3.9.18 패치
-
-버그 수정을 소개하기 위해 Connector를 업데이트했습니다. 가장 주목할 만한 수정 사항은 커넥터가 공유 VPC에 있을 때 Google Cloud의 Cloud Volumes ONTAP 구축에 영향을 미치는 문제입니다.
 
 
 
@@ -418,6 +452,64 @@ Data Sense와 통합하는 글로벌 Active Directory 서버는 이제 이전에
 
 
 == Cloud Sync
+
+
+
+=== 2022년 7월 3일
+
+
+
+==== Azure Data Lake Storage Gen2 지원
+
+이제 NFS 서버 또는 SMB 서버에서 Azure Data Lake Storage Gen2로 데이터를 동기화할 수 있습니다.
+
+Azure Data Lake를 포함하는 동기화 관계를 생성할 때 Cloud Sync에 스토리지 계정 연결 문자열을 제공해야 합니다. SAS(공유 액세스 서명)가 아니라 일반 연결 문자열이어야 합니다.
+
+link:reference-supported-relationships.html["지원되는 동기화 관계 목록을 봅니다"].
+
+
+
+==== Google Cloud Storage에서 지속적으로 동기화합니다
+
+이제 연속 동기화 설정이 소스 Google Cloud Storage 버킷에서 클라우드 스토리지 타겟까지 지원됩니다.
+
+초기 데이터 동기화 후 Cloud Sync는 소스 Google 클라우드 스토리지 버킷의 변경 사항을 수신 대기하고 변경 사항이 발생할 때마다 타겟에 대한 변경 사항을 지속적으로 동기화합니다. 이 설정은 Google 클라우드 스토리지 버킷에서 S3, Google 클라우드 스토리지, Azure Blob 스토리지, StorageGRID 또는 IBM 스토리지로 동기화할 때 사용할 수 있습니다.
+
+데이터 브로커와 연결된 서비스 계정에 이 설정을 사용하려면 다음 권한이 필요합니다.
+
+[source, json]
+----
+- pubsub.subscriptions.consume
+- pubsub.subscriptions.create
+- pubsub.subscriptions.delete
+- pubsub.subscriptions.list
+- pubsub.topics.attachSubscription
+- pubsub.topics.create
+- pubsub.topics.delete
+- pubsub.topics.list
+- pubsub.topics.setIamPolicy
+- storage.buckets.update
+----
+link:task-creating-relationships.html#settings["연속 동기화 설정에 대해 자세히 알아보십시오"].
+
+
+
+==== 새로운 Google Cloud 지역 지원
+
+Cloud Sync 데이터 브로커는 현재 다음 Google 클라우드 지역에서 지원됩니다.
+
+* 콜럼버스(us-east5)
+* 댈러스(us-south1)
+* 마드리드(유럽 - 남서쪽1)
+* 밀라노(유럽 - west8)
+* 파리(유럽 - west9)
+
+
+
+
+==== 새로운 Google Cloud 컴퓨터 유형입니다
+
+Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 n2-standard-4입니다.
 
 
 
