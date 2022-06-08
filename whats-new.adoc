@@ -362,6 +362,44 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-app-d
 
 
 
+=== 2022년 6월 12일
+
+
+
+==== 이제 데이터 조사 페이지에서 결과를 .JSON 보고서로 다운로드할 수 있습니다
+
+데이터 조사 페이지에서 데이터를 필터링한 후에는 데이터를 .JSON 파일에 보고서로 저장하여 NFS 공유로 내보낼 수 있으며 로컬 시스템의 .csv 파일에 데이터를 저장할 수도 있습니다. 데이터 센스에 내보내기 액세스에 대한 올바른 권한이 있는지 확인하십시오. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-generating-compliance-reports.html#data-investigation-report["데이터 조사 페이지에서 보고서를 만드는 방법을 알아봅니다"].
+
+
+
+==== Data Sense UI에서 Data Sense를 제거할 수 있습니다
+
+Data Sense를 제거하여 호스트에서 소프트웨어를 영구적으로 제거할 수 있으며, 클라우드 배포의 경우 Data Sense가 배포된 가상 머신/인스턴스를 삭제할 수 있습니다. 인스턴스를 삭제하면 데이터 센스에서 스캔한 모든 인덱싱된 정보가 영구적으로 삭제됩니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-uninstall-data-sense.html["방법을 확인하십시오"].
+
+
+
+==== 이제 감사 로깅을 사용하여 Data Sense가 수행한 작업 기록을 추적할 수 있습니다
+
+감사 로그는 Data Sense가 검색 중인 모든 작업 환경 및 데이터 소스의 파일에 대해 Data Sense가 수행한 관리 활동을 추적합니다. 작업은 사용자 생성(파일 삭제, 정책 생성 등) 또는 생성된 정책(파일에 레이블 자동 추가, 파일 자동 삭제 등)이 될 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-audit-data-sense-actions.html["감사 로그에 대한 자세한 내용은 을 참조하십시오"].
+
+
+
+==== 데이터 조사 페이지의 중요 ID 수에 대한 새 필터
+
+“Number of identifier(식별자 수)” 필터를 사용하면 개인 데이터와 민감한 개인 데이터를 포함하여 특정 수의 중요한 식별자가 있는 파일을 나열할 수 있습니다. 1-10 또는 501-1000과 같은 범위를 선택하여 해당 수의 중요한 식별자가 포함된 파일만 볼 수 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["데이터를 조사하는 데 사용할 수 있는 모든 필터 목록을 확인하십시오"].
+
+
+
+==== 이제 작성한 기존 정책을 편집할 수 있습니다
+
+이전에 만든 사용자 지정 정책을 변경해야 하는 경우 새 정책을 만드는 대신 정책을 편집할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#editing-policies["정책을 편집하는 방법을 알아봅니다"].
+
+
+
 === 2022년 5월 11일
 
 
@@ -409,40 +447,6 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-
 ==== 이제 글로벌 Active Directory 서버가 LDAP 서버가 될 수 있습니다
 
 Data Sense와 통합하는 글로벌 Active Directory 서버는 이제 이전에 지원되는 DNS 서버 외에도 LDAP 서버가 될 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-add-active-directory-datasense.html["자세한 내용을 보려면 여기를 클릭하십시오"].
-
-
-
-=== 2022년 3월 15일
-
-
-
-==== 새 필터 - 특정 사용자 또는 그룹에 읽기 또는 쓰기 권한이 있는 파일을 표시합니다
-
-"사용자/그룹 권한"이라는 새 필터가 추가되어 특정 사용자 또는 그룹에 읽기 및/또는 쓰기 권한이 있는 파일을 나열할 수 있습니다. 하나 이상의 사용자 및/또는 그룹 이름을 선택하거나 부분 이름을 입력할 수 있습니다. 이 기능은 Cloud Volumes ONTAP, 온프레미스 ONTAP, Azure NetApp Files, ONTAP용 Amazon FSx 및 파일 공유의 볼륨에 사용할 수 있습니다.
-
-
-
-==== Data Sense는 SharePoint 및 OneDrive 계정의 파일에 대한 사용 권한을 결정할 수 있습니다
-
-Data Sense는 지금 OneDrive 계정 및 SharePoint 계정에서 스캔되는 파일에 대한 사용 권한을 읽을 수 있습니다. 이 정보는 파일에 대한 조사 창 세부 정보와 거버넌스 대시보드의 열기 권한 영역에 표시됩니다.
-
-
-
-==== 데이터 센스로 두 가지 유형의 개인 데이터를 추가로 식별할 수 있습니다
-
-* 프랑스어 INSEE - INSEE 코드는 프랑스 통계 및 경제 연구(INSEE)에서 다양한 엔터티를 식별하기 위해 사용하는 숫자 코드입니다.
-* 암호 - 이 정보는 영숫자 문자열 옆에 있는 "password"라는 단어의 변이를 찾아 근접 유효성 검사를 통해 식별됩니다. 찾은 항목 수는 규정 준수 대시보드의 "개인 결과" 아래에 나열됩니다. 검색 창에서 Filter * Personal Data > Password * 를 사용하여 암호가 포함된 파일을 검색할 수 있습니다.
-
-
-
-
-==== 어두운 사이트에 배포할 때 OneDrive 및 SharePoint 데이터 스캔 지원
-
-인터넷에 액세스할 수 없는 온프레미스 사이트의 호스트에 Cloud Data Sense를 배포했다면 이제 OneDrive 계정 또는 SharePoint 계정에서 로컬 데이터를 검색할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-dark-site.html#sharepoint_and_onedrive_special_requirements["다음 끝점에 대한 액세스를 허용해야 합니다."]
-
-
-
-==== Cloud Data Sense를 사용하여 Cloud Backup 파일을 검사하는 베타 기능은 이 릴리즈에서 더 이상 제공되지 않습니다
 
 
 
@@ -1035,13 +1039,35 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
+=== 2022년 6월 12일
+
+
+
+==== 이제 ONTAP 스토리지 VM에 대한 NAS 파일 시스템 감사 상태가 추적됩니다
+
+작업 환경의 스토리지 VM 중 40% 미만에서 파일 시스템 감사가 활성화된 경우 _ Cyber Resilience Map _ 에 경고가 추가됩니다. SMB 및 NFS 이벤트를 추적 및 로깅하지 않는 SVM의 정확한 수를 _ ONTAP 환경의 _ 패널에서 감사 로그에 확인할 수 있습니다. 그런 다음 SVM에 대한 감사를 사용할지 여부를 결정할 수 있습니다.
+
+
+
+==== 이제 온박스 앤티 랜섬웨어가 볼륨에 대해 활성화되지 않은 경우 경고가 표시됩니다
+
+이 정보는 이전에 _ ONTAP Environments _ 패널의 온프레미스 ONTAP 시스템에 대해 보고되었습니다. 그러나 이제 온박스 안티 랜섬웨어 기능이 볼륨의 40% 미만으로 켜지면 _ Cyber Resilience Map_에서 경고가 보고되므로 대시보드에서 이 정보를 볼 수 있습니다.
+
+
+
+==== 이제 ONTAP 시스템용 FSX가 추적되어 볼륨 스냅샷을 활성화할 수 있습니다
+
+ONTAP 환경의 _ 장 _ 패널은 이제 ONTAP 시스템용 FSx의 볼륨에 대한 스냅샷 복사본의 상태를 제공합니다. 볼륨의 40% 미만이 스냅숏으로 보호되는 경우 _ Cyber Resilience Map _ 에서도 경고가 표시됩니다.
+
+
+
 === 2022년 5월 11일
 
 
 
 ==== ONTAP 환경의 보안 강화를 추적하는 새 패널.
 
-새로운 "ONTAP 환경 보호" 패널은 ONTAP 시스템의 특정 설정 상태를 제공하여 에 따른 배포 보안을 추적합니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"^] 로 이동합니다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["ONTAP의 랜섬웨어 방지 기능"^] 비정상적인 활동을 사전에 감지하여 경고합니다.
+ONTAP 환경의 새로운 패널 _ 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"^] 로 이동합니다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["ONTAP의 랜섬웨어 방지 기능"^] 비정상적인 활동을 사전에 감지하여 경고합니다.
 
 권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-ontap-systems-hardening["자세한 내용을 보려면 여기를 클릭하십시오"].
 
@@ -1049,7 +1075,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 ==== 클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다.
 
-이 새로운 "백업 상태" 패널은 랜섬웨어 공격으로 인해 복구해야 할 경우에 대비하여 가장 중요한 데이터 범주를 포괄적으로 백업하는 방법을 보여줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
+이 새로운 _Backup Status_패널에서는 랜섬웨어 공격으로 인해 복구해야 할 경우 가장 중요한 데이터 범주가 얼마나 포괄적으로 백업되는지 보여 줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
 
 
 
@@ -1059,25 +1085,13 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 ==== 비즈니스 크리티컬 데이터의 사용 권한 상태를 추적할 수 있는 새 패널입니다
 
-새로운 "비즈니스 크리티컬 데이터 사용 권한 분석" 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 보여줍니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
+새로운 PANEL_Business Critical data permissions analysis_는 비즈니스에 중요한 데이터의 사용 권한 상태를 표시합니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
 
 
 
 ==== 이제 사용 권한 열기 영역에 OneDrive 및 SharePoint 계정이 포함됩니다
 
 이제 랜섬웨어 보호 대시보드의 개방형 권한 영역에 OneDrive 계정 및 SharePoint 계정에서 스캔되는 파일에 대한 사용 권한이 포함됩니다.
-
-
-
-=== 2022년 2월 9일
-
-
-
-==== 새로운 랜섬웨어 보호 서비스
-
-새로운 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관련 정보를 확인하고 데이터가 사이버 공격에 얼마나 복원되는지 평가할 수 있습니다. 또한 알림 목록과 데이터 보안 개선을 위한 해결 방법도 제공합니다.
-
-https://docs.netapp.com/us-en/cloud-manager-ransomware/concept-ransomware-protection.html["이 새로운 서비스에 대해 자세히 알아보십시오"].
 
 
 
