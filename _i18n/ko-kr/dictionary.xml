@@ -121,7 +121,6 @@
   <block id="0749ae9ea79ee87dd8c530f67a9065fe" category="section-title">모든 ONTAP 백업 파일에서 볼륨 또는 파일을 검색하는 새로운 검색 및 복원 기능</block>
   <block id="abad9ff4f9967065f50634a2a3606dd0" category="inline-link">검색 및 amp;Restore 사용 방법에 대해 알아봅니다</block>
   <block id="9a4fc48ebf3077bde35f83be2ee84cc8" category="paragraph">이제 일부 또는 전체 볼륨 이름, 일부 또는 전체 파일 이름, 크기 범위 및 추가 검색 필터를 통해 * 모든 ONTAP 백업 파일 * 에서 볼륨 또는 파일을 검색할 수 있습니다. 이 방법은 어떤 클러스터나 볼륨이 데이터의 소스인지 잘 모르면 복원하려는 데이터를 찾을 수 있는 새로운 방법입니다.<block ref="f28ab8501300af6839923f7181e075ab" category="inline-link-rx"></block>.</block>
-  <block id="c76a3316ed2cb0284c0ef1b126e8b3ff" category="section-title">2022년 4월 5일</block>
   <block id="e661d5c04d5948d390d622ba88bdcc6b" category="section-title">네 가지 새로운 유형의 호주 개인 데이터는 데이터 센스로 식별할 수 있습니다</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">데이터 센스에서 식별할 수 있는 모든 유형의 개인 데이터를 확인하십시오</block>
   <block id="2cce25ab977b0dbc152674f93a9dcd6e" category="paragraph">데이터 센스를 사용하면 오스트레일리아 TFN(세금 파일 번호), 오스트레일리아 운전면허증 번호, 오스트레일리아 의료보험 번호 및 호주 여권 번호가 포함된 파일을 식별하고 분류할 수 있습니다.<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>.</block>
@@ -273,11 +272,6 @@
   <block id="0080f4096e51a12d4256890c125c5c46" category="paragraph">이제 Cloud Manager에서 배치 그룹을 만드는 방법을 최적화하려면 이러한 권한이 필요합니다.</block>
   <block id="eaf263597aafb24c99ce4e16af420ae8" category="inline-link">Cloud Manager 정책 페이지</block>
   <block id="26dd25d183752a9f37249174f3d3ff89" category="paragraph">Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. 에서 최신 사용 권한 목록을 찾을 수 있습니다<block ref="0e92ab1ca454f31f07a6e5fba6519a3a" category="inline-link-rx"></block>.</block>
-  <block id="5dc3495f29e6f1332d6d809ba30cbf83" category="section-title">커넥터 3.9.17</block>
-  <block id="dc45cdfe41bbcfa7f2d8bf1ed54a89ed" category="list-text">이제 Cloud Manager가 사용자 환경에서 설정한 IAM 역할을 가정하도록 하여 Connector를 생성할 수 있습니다. 이 인증 방법은 AWS 액세스 키와 비밀 키를 공유하는 것보다 더 안전합니다.</block>
-  <block id="c1ef500163b033b0cacf87c830339c6e" category="inline-link">IAM 역할을 사용하여 커넥터를 생성하는 방법에 대해 알아봅니다</block>
-  <block id="1d74a995b1a421dcb50976efb8094b21" category="paragraph"><block ref="f92b2fbbcca658498705715523d67bd6" category="inline-link-rx"></block>.</block>
-  <block id="1d99a1c8fadd3f9a537fec830e9791e0" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.<block ref="66c4cd7232189d67ede2231e4ccd26ce" category="inline-link-rx"></block></block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022년 5월 3일</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">Cloud Tiering 라이센스는 추가 클러스터 구성을 지원합니다</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">이러한 유형의 클러스터에 대한 라이센스 부여 및 구성 방법을 확인하십시오.</block>
@@ -484,4 +478,10 @@
   <block id="826610554423c9dc8481da631ccae8be" category="inline-link">오프라인 사이트에서 ONTAP 데이터를 StorageGRID에 백업하는 방법을 알아봅니다</block>
   <block id="824ce1955c2b2d5f91cb80c86545d639" category="paragraph"><block ref="eb618b89294e80d594faecbc4641afee" category="inline-link-rx"></block>.<block ref="f39d73248b535226c2e16237e43ff2d0" category="inline-link-rx"></block>.</block>
   <block id="0a0c24e7fef8cd9bcb19d6db19987b93" category="paragraph">이전에 클라우드 복원 인스턴스/VM을 사용한 경우 자동으로 제거됩니다. Cloud Backup 프로세스는 모든 이전 Cloud Restore 인스턴스를 삭제하기 위해 하루에 한 번 실행됩니다. 이 변경 사항은 완전히 투명하게 나타납니다. 데이터에는 영향을 주지 않으며 백업 또는 복원 작업이 변경되지 않습니다.</block>
+  <block id="360d69dcc915fa54a4ac5faccbaf2127" category="section-title">2022년 6월 12일(버전 1.13.1)</block>
+  <block id="2dd4f685f001cb4e6c0149956ba4a997" category="section-title">2022년 5월 11일(버전 1.12.1)</block>
+  <block id="07de9e897e96f5f63e0778d691b62d59" category="section-title">2022년 4월 5일(버전 1.11.1)</block>
+  <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
+  <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
+  <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. 이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
 </blocks>
