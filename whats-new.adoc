@@ -27,6 +27,19 @@ Cloud Manager 플랫폼의 일부인 클라우드 서비스의 최신 변경 사
 
 
 
+=== 2022년 6월 28일
+
+
+
+==== NetApp 자격 증명으로 로그인합니다
+
+새로운 사용자가 Cloud Central에 등록하면 이제 NetApp * 옵션을 사용하여 로그인 * 을 선택하여 NetApp Support 사이트 자격 증명으로 로그인할 수 있습니다. 이 방법은 전자 메일 주소와 암호를 입력하는 대신 사용됩니다.
+
+
+NOTE: 전자 메일 주소와 암호를 사용하는 기존 로그인은 해당 로그인 방법을 계속 사용해야 합니다. NetApp으로 로그인 옵션은 등록하는 새 사용자를 위해 사용할 수 있습니다.
+
+
+
 === 2022년 6월 7일
 
 
@@ -55,49 +68,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 ==== 커넥터 3.9.18 패치
 
 버그 수정을 소개하기 위해 Connector를 업데이트했습니다. 가장 주목할 만한 수정 사항은 커넥터가 공유 VPC에 있을 때 Google Cloud의 Cloud Volumes ONTAP 구축에 영향을 미치는 문제입니다.
-
-
-
-=== 2022년 5월 2일
-
-
-
-==== 커넥터 3.9.18
-
-* Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.
-+
-** 델리(아시아 - 남쪽 2)
-** 멜번(호주 - 수테스토2)
-** 밀라노(유럽 - west8)
-** 산티아고(사우스메리카 - 웨스투트어)
-
-
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
-* Connector에 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에 각 서비스 계정과 연결된 이메일 주소가 표시됩니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-google-cloud-service-account.png["서비스 계정 필드의 스크린샷"]
-
-* 당사는 지원하는 OS를 통해 VM 인스턴스에서 Google Cloud의 Connector를 인증했습니다 https://cloud.google.com/compute/shielded-vm/docs/shielded-vm["차폐된 VM 기능"^]
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-may-2022["이러한 향상된 기능에 대해 알아보십시오"^]
-* Connector에서 Cloud Volumes ONTAP를 구축하려면 새로운 AWS 권한이 필요합니다.
-+
-이제 AZ(단일 가용성 영역)에 HA 쌍을 구축할 때 AWS 분산 배치 그룹을 생성하려면 다음 권한이 필요합니다.
-
-+
-[source, json]
-----
-"ec2:DescribePlacementGroups",
-"iam:GetRolePolicy",
-----
-+
-이제 Cloud Manager에서 배치 그룹을 만드는 방법을 최적화하려면 이러한 권한이 필요합니다.
-
-+
-Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. 에서 최신 사용 권한 목록을 찾을 수 있습니다 https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 정책 페이지"^].
-
-
 
 
 
