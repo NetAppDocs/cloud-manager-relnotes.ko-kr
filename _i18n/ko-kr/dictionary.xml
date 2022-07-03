@@ -506,7 +506,6 @@
   <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">디지털 지갑</block>
   <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">이제 Digital Wallet은 사용자 계정의 총 소비된 용량과 라이센스 패키지별 소비된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
   <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">용량 기반 라이센스에 대한 Digital Wallet 페이지를 보여 주는 스크린샷 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고 라이센스 패키지를 통해 사용된 용량을 나눕니다.</block>
-  <block id="25151b376af0a0b205be15ab92b4cd97" category="paragraph"><block ref="25151b376af0a0b205be15ab92b4cd97" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d9c05beb7c27c53dc1cb952afddea3ac" category="section-title">탄성 볼륨 개선</block>
   <block id="119ffefd11e6681de49e316bc16a471d" category="paragraph">이제 Cloud Manager는 사용자 인터페이스에서 Cloud Volumes ONTAP 작업 환경을 생성할 때 Amazon EBS Elastic Volumes 기능을 지원합니다. GP3 또는 ios1 디스크를 사용하는 경우 Elastic Volumes 기능이 기본적으로 활성화됩니다. 스토리지 요구사항에 따라 초기 용량을 선택하고 Cloud Volumes ONTAP를 구축한 후 수정할 수 있습니다.</block>
   <block id="0c5741d0ec0127a10c28f7c82579da32" category="inline-link-macro">AWS의 Elastic Volumes 지원에 대해 자세히 알아보십시오</block>
@@ -514,9 +513,11 @@
   <block id="7fb4d101a5e000398c4d5b4c48b802a6" category="section-title">AWS의 ONTAP S3 라이센스</block>
   <block id="e1d7a3ee89947f3549d385865ef27dda" category="paragraph">Cloud Manager는 이제 ONTAP에서 버전 9.11.0 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 S3 라이센스를 자동으로 설치합니다.</block>
   <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오</block>
-  <block id="75081fb4982f7b843e702079b35f0ed4" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block>.</block>
   <block id="c86d179c90248acd6ebdba05bd94320c" category="section-title">새로운 Azure Cloud 지역 지원</block>
   <block id="c55cc410beff8f86afc3ba8027b681f7" category="paragraph">9.10.1 릴리스부터는 Cloud Volumes ONTAP가 이제 Azure West US 3 지역에서 지원됩니다.</block>
   <block id="1a3362a1b5304a4e1e1112496974b9ae" category="section-title">Azure의 ONTAP S3 라이센스</block>
   <block id="e29ddfe6afa32fb2c96c8682f4ca73e8" category="paragraph">Cloud Manager는 이제 Azure에서 버전 9.9.1 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 ONTAP S3 라이센스를 자동으로 설치합니다.</block>
+  <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
+  <block id="16d18a6af4e3eb041715aa5c571b4c92" category="paragraph">stdin&gt;의 확인되지 않은 지시문 - 포함::https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]</block>
 </blocks>
