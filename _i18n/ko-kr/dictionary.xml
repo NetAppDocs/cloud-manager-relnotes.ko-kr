@@ -293,14 +293,6 @@
   <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP의 랜섬웨어 방지 기능</block>
   <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다.<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>.</block>
   <block id="76553642514a4b204c12afe14df42e92" category="section-title">클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다.</block>
-  <block id="97106e7449f4966fc1e4b3b78d425110" category="section-title">System Manager 링크가 제거되었습니다</block>
-  <block id="249f6fd27ec465f7b6af7dc12178a1ea" category="paragraph">이전에 Cloud Volumes ONTAP 작업 환경 내에서 사용할 수 있었던 시스템 관리자 링크가 제거되었습니다.</block>
-  <block id="1979125e36e7d7c49ca297e15301d908" category="inline-link">System Manager에 연결하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="bbf60c789b26c6dcc40b75262425eac7" category="paragraph">Cloud Volumes ONTAP 시스템에 연결된 웹 브라우저에 클러스터 관리 IP 주소를 입력하여 System Manager에 연결할 수도 있습니다.<block ref="c343c10570bfa751089c9639f87b6a1f" category="inline-link-rx"></block>.</block>
-  <block id="0f132f66e81cbab588044405a33dc058" category="section-title">WORM 스토리지에 대한 충전 중</block>
-  <block id="d87a373c29bad4362e9f6515cb3a6927" category="paragraph">출시 특별 요금이 만료되었으므로 이제 WORM 스토리지 사용 요금이 부과됩니다. WORM 볼륨의 총 프로비저닝 용량에 따라 매시간 충전됩니다. 이는 신규 및 기존 Cloud Volumes ONTAP 시스템에 적용됩니다.</block>
-  <block id="10142c9d88b9419ee393574e858e86c8" category="inline-link">WORM 스토리지 가격에 대해 자세히 알아보십시오</block>
-  <block id="074dbf8cc93ccd34e86e3e2e8f2a1e3a" category="paragraph"><block ref="38aefad2ca205e663da97b7fdd932dcf" category="inline-link-rx"></block>.</block>
   <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">이제 모든 파일과 데이터베이스의 데이터를 보고 필터링할 수 있을 뿐 아니라 데이터 조사 페이지의 폴더 및 공유 내의 모든 데이터를 기반으로 데이터를 보고 필터링할 수 있습니다. 디렉토리는 스캔된 CIFS 및 NFS 공유와 OneDrive, SharePoint 및 Google Drive 폴더에 대해 인덱싱됩니다. 따라서 이제 디렉토리 수준에서 사용 권한을 보고 데이터를 관리할 수 있습니다.<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>.</block>
   <block id="e76164b285bb635d604e86db0ddefffb" category="paragraph">다음 변경 사항은 커넥터의 3.9.18 릴리스에 도입되었습니다.</block>
   <block id="44521137c9499dbef6a006058d0d9127" category="section-title">Cloud Volumes ONTAP 9.11.0</block>
@@ -510,4 +502,21 @@
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 n2-standard-4입니다.</block>
   <block id="1da5b30af8a0c5d1ce771dde6d9be98e" category="paragraph"><block ref="1da5b30af8a0c5d1ce771dde6d9be98e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0ce7c9606b5f3d67c288c6ffe90a846e" category="paragraph"><block ref="0ce7c9606b5f3d67c288c6ffe90a846e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11df15715c1f580c53cb06d73a344574" category="paragraph">다음 변경 사항은 커넥터의 3.9.20 릴리스에 도입되었습니다.</block>
+  <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">디지털 지갑</block>
+  <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">이제 Digital Wallet은 사용자 계정의 총 소비된 용량과 라이센스 패키지별 소비된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
+  <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">용량 기반 라이센스에 대한 Digital Wallet 페이지를 보여 주는 스크린샷 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고 라이센스 패키지를 통해 사용된 용량을 나눕니다.</block>
+  <block id="25151b376af0a0b205be15ab92b4cd97" category="paragraph"><block ref="25151b376af0a0b205be15ab92b4cd97" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d9c05beb7c27c53dc1cb952afddea3ac" category="section-title">탄성 볼륨 개선</block>
+  <block id="119ffefd11e6681de49e316bc16a471d" category="paragraph">이제 Cloud Manager는 사용자 인터페이스에서 Cloud Volumes ONTAP 작업 환경을 생성할 때 Amazon EBS Elastic Volumes 기능을 지원합니다. GP3 또는 ios1 디스크를 사용하는 경우 Elastic Volumes 기능이 기본적으로 활성화됩니다. 스토리지 요구사항에 따라 초기 용량을 선택하고 Cloud Volumes ONTAP를 구축한 후 수정할 수 있습니다.</block>
+  <block id="0c5741d0ec0127a10c28f7c82579da32" category="inline-link-macro">AWS의 Elastic Volumes 지원에 대해 자세히 알아보십시오</block>
+  <block id="3cc8cd9bef921086f444d55cf1ea25c6" category="paragraph"><block ref="a2865c7bad4b206df6582ad55cba915e" category="inline-link-macro-rx"></block>.</block>
+  <block id="7fb4d101a5e000398c4d5b4c48b802a6" category="section-title">AWS의 ONTAP S3 라이센스</block>
+  <block id="e1d7a3ee89947f3549d385865ef27dda" category="paragraph">Cloud Manager는 이제 ONTAP에서 버전 9.11.0 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 S3 라이센스를 자동으로 설치합니다.</block>
+  <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오</block>
+  <block id="75081fb4982f7b843e702079b35f0ed4" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block>.</block>
+  <block id="c86d179c90248acd6ebdba05bd94320c" category="section-title">새로운 Azure Cloud 지역 지원</block>
+  <block id="c55cc410beff8f86afc3ba8027b681f7" category="paragraph">9.10.1 릴리스부터는 Cloud Volumes ONTAP가 이제 Azure West US 3 지역에서 지원됩니다.</block>
+  <block id="1a3362a1b5304a4e1e1112496974b9ae" category="section-title">Azure의 ONTAP S3 라이센스</block>
+  <block id="e29ddfe6afa32fb2c96c8682f4ca73e8" category="paragraph">Cloud Manager는 이제 Azure에서 버전 9.9.1 이상을 실행하는 신규 및 기존 Cloud Volumes ONTAP 시스템에 ONTAP S3 라이센스를 자동으로 설치합니다.</block>
 </blocks>
