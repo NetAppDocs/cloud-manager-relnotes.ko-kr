@@ -39,7 +39,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/mai
 
 * 이제 Cloud Manager를 구성하여 시스템에 로그인하지 않아도 중요한 시스템 작업을 이메일로 통지할 수 있습니다.
 +
-link:task-monitor-cm-operations.html["계정의 작업 모니터링에 대해 자세히 알아보십시오"].
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["계정의 작업 모니터링에 대해 자세히 알아보십시오"].
 
 * Cloud Manager는 이제 Amazon S3 지원과 비슷하게 Azure Blob 스토리지 및 Google Cloud Storage를 작업 환경으로 지원합니다.
 +
@@ -159,6 +159,20 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 
 
+=== 2022년 7월 3일
+
+* 이제 단일 또는 다중 가용성 영역 HA 배포 모델을 선택할 수 있습니다.
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-ontap-working-environment["ONTAP 작업 환경을 위한 FSx를 생성합니다"]
+
+* Cloud Manager에서 AWS GovCloud 계정 인증이 지원됩니다.
++
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html#set-up-the-iam-role["IAM 역할을 설정합니다"]
+
+
+
+
+
 === 2022년 2월 27일
 
 
@@ -184,22 +198,6 @@ ONTAP용 FSx용 iSCSI 볼륨은 Cloud Manager API를 사용하여 생성하고 �
 ==== 볼륨을 생성할 때 볼륨 단위를 선택합니다
 
 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["볼륨을 생성할 때 볼륨 단위(GiB 또는 TiB)를 선택합니다"] FSx for ONTAP에서
-
-
-
-=== 2021년 10월 4일
-
-
-
-==== Cloud Manager를 사용하여 CIFS 볼륨을 생성합니다
-
-이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Manager를 사용하여 ONTAP용 FSx에서 CIFS 볼륨을 생성합니다"].
-
-
-
-==== Cloud Manager를 사용하여 볼륨을 편집합니다
-
-이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["Cloud Manager를 사용하여 ONTAP 볼륨의 FSx를 편집합니다"].
 
 
 
@@ -1001,6 +999,20 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+=== 2022년 7월 3일
+
+* Trident 연산자를 사용하여 Astra Trident를 구축한 경우 Cloud Manager를 사용하여 Astra Trident의 최신 버전으로 업그레이드할 수 있습니다.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Astra Trident 설치 및 관리"]
+
+* 이제 Kubernetes 클러스터를 ONTAP용 AWS FSx 작업 환경에 끌어다 놓아 Canvas에서 직접 스토리지 클래스를 추가할 수 있습니다.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스를 추가합니다"]
+
+
+
+
+
 === 2022년 6월 6일
 
 Cloud Manager는 이제 백엔드 스토리지로 ONTAP용 Amazon FSx를 지원합니다.
@@ -1016,25 +1028,6 @@ Cloud Manager는 이제 백엔드 스토리지로 ONTAP용 Amazon FSx를 지원�
 이제 Kubernetes 클러스터를 Cloud Volumes ONTAP 작업 환경에 끌어다 놓아 Canvas에서 직접 스토리지 클래스를 추가할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스를 추가합니다"]
-
-
-
-=== 2022년 4월 4일
-
-
-
-==== Cloud Manager 리소스 페이지를 사용하여 Kubernetes 클러스터를 관리합니다
-
-이제 Kubernetes 클러스터 관리가 클러스터 작업 환경과의 통합을 직접 개선했습니다. 새로운 소식 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-quick-start.html["빠른 시작"] 빠르게 설치하고 실행할 수 있습니다.
-
-이제 클러스터 리소스 페이지에서 다음 작업을 수행할 수 있습니다.
-
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Astra Trident를 설치합니다"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html["스토리지 클래스를 추가합니다"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-persistent-volumes.html["영구 볼륨 보기"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-remove-cluster.html["클러스터를 제거합니다"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-enable-services.html["데이터 서비스 지원"]
-
 
 
 
