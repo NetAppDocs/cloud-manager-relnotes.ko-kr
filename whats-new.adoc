@@ -27,6 +27,20 @@ Cloud Manager 플랫폼의 일부인 클라우드 서비스의 최신 변경 사
 
 
 
+=== 2022년 7월 15일
+
+
+
+==== 정책 변경
+
+문서 내에 Cloud Manager 정책을 직접 추가하여 문서를 업데이트했습니다. 즉, 이제 커넥터 및 Cloud Volumes ONTAP에 필요한 사용 권한을 설정하는 방법을 설명하는 단계와 함께 볼 수 있습니다. 이러한 정책은 이전에 NetApp Support 사이트의 페이지에서 액세스할 수 있었습니다.
+
+link:task-creating-connectors-aws.html#create-an-iam-policy["다음은 Connector를 생성하는 데 사용되는 AWS IAM 역할 권한을 보여 주는 예입니다"].
+
+또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다. link:reference-permissions.html["Cloud Manager에 대한 사용 권한 요약을 봅니다"].
+
+
+
 === 2022년 7월 3일
 
 
@@ -81,27 +95,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2
 
 
 NOTE: 전자 메일 주소와 암호를 사용하는 기존 로그인은 해당 로그인 방법을 계속 사용해야 합니다. NetApp으로 로그인 옵션은 등록하는 새 사용자를 위해 사용할 수 있습니다.
-
-
-
-=== 2022년 6월 7일
-
-
-
-==== 커넥터 3.9.19
-
-* 커넥터는 현재 AWS 자카르타 지역(AP-동남동-3)에서 지원됩니다.
-* 이제 Connector는 Azure Brazil Southeast 지역에서 지원됩니다.
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
-* 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
-+
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#7-june-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#7-june-2022["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
-
-
-
 
 
 
@@ -760,7 +753,7 @@ Elastic Volumes를 지원하려면 Connector에 대한 새로운 AWS 권한이 �
 "ec2:DescribeVolumesModifications",
 "ec2:ModifyVolume",
 ----
-Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. 에서 최신 사용 권한 목록을 찾을 수 있습니다 https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 정책 페이지"^].
+Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-aws.html["AWS에 대한 최신 커넥터 정책을 봅니다"^].
 
 
 
@@ -856,7 +849,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.htm
 ----
 이제 Cloud Manager에서 배치 그룹을 만드는 방법을 최적화하려면 이러한 권한이 필요합니다.
 
-Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. 에서 최신 사용 권한 목록을 찾을 수 있습니다 https://mysupport.netapp.com/site/info/cloud-manager-policies["Cloud Manager 정책 페이지"^].
+Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-aws.html["AWS에 대한 최신 커넥터 정책을 봅니다"^].
 
 
 
