@@ -457,7 +457,6 @@
   <block id="66c941bf286fd505b009d484ca94a594" category="section-title">새로운 Google Cloud 컴퓨터 유형입니다</block>
   <block id="32ddf7d830e3a5092074c4f9bb211736" category="paragraph">Google Cloud의 데이터 브로커에 대한 기본 시스템 유형은 이제 n2-standard-4입니다.</block>
   <block id="1da5b30af8a0c5d1ce771dde6d9be98e" category="paragraph"><block ref="1da5b30af8a0c5d1ce771dde6d9be98e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0ce7c9606b5f3d67c288c6ffe90a846e" category="paragraph"><block ref="0ce7c9606b5f3d67c288c6ffe90a846e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11df15715c1f580c53cb06d73a344574" category="paragraph">다음 변경 사항은 커넥터의 3.9.20 릴리스에 도입되었습니다.</block>
   <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">디지털 지갑</block>
   <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">이제 Digital Wallet은 사용자 계정의 총 소비된 용량과 라이센스 패키지별 소비된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
@@ -518,4 +517,5 @@
   <block id="289c267aad7151f388f9cb33c2dd25ca" category="paragraph">또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다. <block ref="95fc2556330780df6dd239853ed18808" category="inline-link-macro-rx"></block>.</block>
   <block id="63e4eec15ba75260d01771611989182b" category="inline-link">AWS에 대한 최신 커넥터 정책을 봅니다</block>
   <block id="3f5180c6dfc0906c58f04ff000c41a28" category="paragraph">Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 제공해야 합니다.<block ref="68d3de9f2b18269a91b4a95ab6a0f18b" category="inline-link-rx"></block>.</block>
+  <block id="75c4b088a92b16dc79074e212617e6c6" category="paragraph"><block ref="75c4b088a92b16dc79074e212617e6c6" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
