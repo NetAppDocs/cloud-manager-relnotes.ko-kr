@@ -715,8 +715,6 @@ ONTAP S3 라이센스는 이제 Azure에서 버전 9.9.1 이상을 실행하는 
 
 https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["ONTAP에서 S3 오브젝트 스토리지 서비스를 구성 및 관리하는 방법에 대해 알아보십시오"^]
 
-stdin>의 확인되지 않은 지시문 - 포함::https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/_include/whats-new-july-gcp.adoc[leveloffset=+1]
-
 
 
 === 2022년 6월 7일
